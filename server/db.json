@@ -1,0 +1,178 @@
+{
+  "articles": [
+    {
+      "id": 2,
+      "reference": "ART-002",
+      "nom": "Écrou M8",
+      "categorie": "Quincaillerie",
+      "quantite": 25,
+      "unite": "pièce",
+      "seuilMin": 100,
+      "emplacement": "Rayon A2",
+      "fournisseur": "Fournisseur B",
+      "prixUnitaire": 1.8,
+      "createdAt": "2024-01-16"
+    },
+    {
+      "id": 3,
+      "reference": "ART-003",
+      "nom": "Plaque acier 2mm",
+      "categorie": "Métallerie",
+      "quantite": 5,
+      "unite": "m²",
+      "seuilMin": 5,
+      "emplacement": "Zone B1",
+      "fournisseur": "Fournisseur C",
+      "prixUnitaire": 150,
+      "createdAt": "2024-01-17"
+    },
+    {
+      "id": 4,
+      "reference": "ART-004",
+      "nom": "Câble électrique 2.5mm²",
+      "categorie": "Électricité",
+      "quantite": 120,
+      "unite": "m",
+      "seuilMin": 50,
+      "emplacement": "Rayon C1",
+      "fournisseur": "Fournisseur D",
+      "prixUnitaire": 8.5,
+      "createdAt": "2024-01-18"
+    },
+    {
+      "id": 5,
+      "reference": "ART-005",
+      "nom": "Peinture blanche mate",
+      "categorie": "Peinture",
+      "quantite": 45,
+      "unite": "L",
+      "seuilMin": 20,
+      "emplacement": "Zone D2",
+      "fournisseur": "Fournisseur E",
+      "prixUnitaire": 85,
+      "createdAt": "2024-01-19"
+    },
+    {
+      "id": 1765856549850,
+      "reference": "ART-648",
+      "nom": "Vis M6 x 20mm",
+      "categorie": "Quincaillerie",
+      "quantite": 20,
+      "unite": "boîte",
+      "seuilMin": 10,
+      "emplacement": "Rayon A2",
+      "fournisseur": "Fournisseur F",
+      "prixUnitaire": 15.3,
+      "createdAt": "2025-12-16"
+    }
+  ],
+  "mouvements": [
+    {
+      "id": 2,
+      "articleId": 2,
+      "type": "sortie",
+      "quantite": 25,
+      "date": "2024-01-21",
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2024-01-21T14:15:00"
+    },
+    {
+      "id": 3,
+      "articleId": 3,
+      "type": "entrée",
+      "quantite": 20,
+      "date": "2024-01-22",
+      "motif": "Transfert interne",
+      "utilisateur": "Manager",
+      "createdAt": "2024-01-22T09:45:00"
+    },
+    {
+      "id": 4,
+      "articleId": 4,
+      "type": "sortie",
+      "quantite": 15,
+      "date": "2024-01-23",
+      "motif": "Projet client",
+      "utilisateur": "Technicien",
+      "createdAt": "2024-01-23T16:20:00"
+    },
+    {
+      "id": 1765859332517,
+      "articleId": 4,
+      "type": "sortie",
+      "quantite": 100,
+      "date": "2025-12-16",
+      "motif": "Retour client",
+      "utilisateur": "Admin"
+    },
+    {
+      "id": 1765859466689,
+      "articleId": 5,
+      "type": "sortie",
+      "quantite": 40,
+      "date": "2025-12-16",
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin"
+    },
+    {
+      "id": 1765859503953,
+      "articleId": 1765856549850,
+      "type": "sortie",
+      "quantite": 19,
+      "date": "2025-12-16",
+      "motif": "Inventaire",
+      "utilisateur": "Admin"
+    },
+    {
+      "id": 1765859503954,
+      "articleId": 3,
+      "type": "sortie",
+      "quantite": 5,
+      "date": "2025-12-16",
+      "motif": "Consommation production",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-16T04:51:04.998Z"
+    },
+    {
+      "id": 1765859503955,
+      "articleId": 3,
+      "type": "entrée",
+      "quantite": 10,
+      "date": "2025-12-16",
+      "motif": "Retour client",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-16T04:51:57.036Z"
+    },
+    {
+      "id": 1765859503956,
+      "articleId": 3,
+      "type": "sortie",
+      "quantite": 8,
+      "date": "2025-12-16",
+      "motif": "Ajustement stock",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-16T04:55:48.596Z"
+    },
+    {
+      "id": 1765859503957,
+      "articleId": 1765856549850,
+      "type": "sortie",
+      "quantite": 10,
+      "date": "2025-12-17",
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-17T07:11:59.499Z"
+    },
+    {
+      "id": 1765859503958,
+      "articleId": 1765856549850,
+      "type": "entrée",
+      "quantite": 10,
+      "date": "2025-12-17",
+      "motif": "Inventaire",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-17T07:14:50.348Z"
+    }
+  ]
+}
