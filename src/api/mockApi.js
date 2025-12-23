@@ -1,27 +1,39 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'http://localhost:5000';
+const API_URL = "http://localhost:5000";
 
 const api = axios.create({
   baseURL: API_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
 });
 
+/* =========================
+   ARTICLES API (UNCHANGED)
+========================= */
+
 export const articlesApi = {
-  getAll: () => api.get('/articles'),
+  getAll: () => api.get("/articles"),
   getById: (id) => api.get(`/articles/${id}`),
-  create: (data) => api.post('/articles', data),
+  create: (data) => api.post("/articles", data),
   update: (id, data) => api.put(`/articles/${id}`, data),
   delete: (id) => api.delete(`/articles/${id}`),
 };
 
-export const mouvementsApi = {
-  getAll: () => api.get('/mouvements'),
-  getByArticle: (articleId) => api.get(`/mouvements?articleId=${articleId}`),
-  create: (data) => api.post('/mouvements', data),
-  delete: (id) => api.delete(`/mouvements/${id}`),
+/* =========================
+   BONS API (NEW)
+========================= */
+
+export const bonsApi = {
+  getAll: () => api.get("/bons"),
+  create: (data) => api.post("/bons", data),
+  delete: (id) => api.delete(`/bons/${id}`),
 };
+
+
+/* =========================
+   EXPORT BASE API
+========================= */
 
 export default api;

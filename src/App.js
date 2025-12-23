@@ -12,8 +12,9 @@ import ArticlesList from './pages/ArticlesList';
 import ArticleDetail from './pages/ArticleDetail';
 import AddArticleForm from './pages/AddArticleForm';
 import EditArticleForm from './pages/EditArticleForm';
-import MouvementsList from './pages/MouvementsList';
-import AddMouvementForm from './pages/AddMouvementForm';
+import BonList from './pages/BonList';
+import AddBonForm from './pages/AddBonForm';
+import BonDetail from './pages/BonDetail';
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
             <Route path="articles/:id" element={<ArticleDetail />} />
             <Route path="articles/ajouter" element={<AddArticleForm />} />
             <Route path="articles/edit/:id" element={<EditArticleForm />} />
-            <Route path="mouvements" element={<MouvementsList />} />
-            <Route path="mouvements/ajouter" element={<AddMouvementForm />} />
+            <Route path="bons" element={<BonList />} />
+            <Route path="bon/ajouter" element={<AddBonForm />} />
+            <Route path="bon/:id" element={<BonDetail />} />
           </Route>
         </Routes>
       </Router>

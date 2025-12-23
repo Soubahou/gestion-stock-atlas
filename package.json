@@ -16,17 +16,18 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.30.2",
     "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
     "recharts": "^3.5.1",
     "yup": "^1.7.1"
   },
-"scripts": {
-  "start": "react-scripts start",
-  "server": "node server/server.js",
-  "dev": "concurrently \"npm run server\" \"npm start\"",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app"

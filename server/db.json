@@ -18,7 +18,7 @@
       "reference": "ART-003",
       "nom": "Plaque acier 2mm",
       "categorie": "Métallerie",
-      "quantite": 5,
+      "quantite": 2,
       "unite": "m²",
       "seuilMin": 5,
       "emplacement": "Zone B1",
@@ -31,7 +31,7 @@
       "reference": "ART-004",
       "nom": "Câble électrique 2.5mm²",
       "categorie": "Électricité",
-      "quantite": 120,
+      "quantite": 97,
       "unite": "m",
       "seuilMin": 50,
       "emplacement": "Rayon C1",
@@ -66,113 +66,38 @@
       "createdAt": "2025-12-16"
     }
   ],
-  "mouvements": [
+  "bons": [
     {
-      "id": 2,
-      "articleId": 2,
-      "type": "sortie",
-      "quantite": 25,
-      "date": "2024-01-21",
-      "motif": "Consommation production",
-      "utilisateur": "Ouvrier",
-      "createdAt": "2024-01-21T14:15:00"
+      "id": 1766440755497,
+      "ref": "BON-SOR-0003",
+      "type": "SORTIE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 3,
+          "quantity": 3
+        }
+      ],
+      "createdAt": "2025-12-22T21:59:15.497Z"
     },
     {
-      "id": 3,
-      "articleId": 3,
-      "type": "entrée",
-      "quantite": 20,
-      "date": "2024-01-22",
+      "id": 1766475113119,
+      "ref": "BON-SOR-0004",
+      "type": "SORTIE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 4,
+          "quantity": 23
+        }
+      ],
       "motif": "Transfert interne",
-      "utilisateur": "Manager",
-      "createdAt": "2024-01-22T09:45:00"
-    },
-    {
-      "id": 4,
-      "articleId": 4,
-      "type": "sortie",
-      "quantite": 15,
-      "date": "2024-01-23",
-      "motif": "Projet client",
-      "utilisateur": "Technicien",
-      "createdAt": "2024-01-23T16:20:00"
-    },
-    {
-      "id": 1765859332517,
-      "articleId": 4,
-      "type": "sortie",
-      "quantite": 100,
-      "date": "2025-12-16",
-      "motif": "Retour client",
-      "utilisateur": "Admin"
-    },
-    {
-      "id": 1765859466689,
-      "articleId": 5,
-      "type": "sortie",
-      "quantite": 40,
-      "date": "2025-12-16",
-      "motif": "Réception fournisseur",
-      "utilisateur": "Admin"
-    },
-    {
-      "id": 1765859503953,
-      "articleId": 1765856549850,
-      "type": "sortie",
-      "quantite": 19,
-      "date": "2025-12-16",
-      "motif": "Inventaire",
-      "utilisateur": "Admin"
-    },
-    {
-      "id": 1765859503954,
-      "articleId": 3,
-      "type": "sortie",
-      "quantite": 5,
-      "date": "2025-12-16",
-      "motif": "Consommation production",
-      "utilisateur": "Admin",
-      "createdAt": "2025-12-16T04:51:04.998Z"
-    },
-    {
-      "id": 1765859503955,
-      "articleId": 3,
-      "type": "entrée",
-      "quantite": 10,
-      "date": "2025-12-16",
-      "motif": "Retour client",
-      "utilisateur": "Magasinier",
-      "createdAt": "2025-12-16T04:51:57.036Z"
-    },
-    {
-      "id": 1765859503956,
-      "articleId": 3,
-      "type": "sortie",
-      "quantite": 8,
-      "date": "2025-12-16",
-      "motif": "Ajustement stock",
-      "utilisateur": "Admin",
-      "createdAt": "2025-12-16T04:55:48.596Z"
-    },
-    {
-      "id": 1765859503957,
-      "articleId": 1765856549850,
-      "type": "sortie",
-      "quantite": 10,
-      "date": "2025-12-17",
-      "motif": "Réception fournisseur",
-      "utilisateur": "Admin",
-      "createdAt": "2025-12-17T07:11:59.499Z"
-    },
-    {
-      "id": 1765859503958,
-      "articleId": 1765856549850,
-      "type": "entrée",
-      "quantite": 10,
-      "date": "2025-12-17",
-      "motif": "Inventaire",
       "utilisateur": "Ouvrier",
-      "createdAt": "2025-12-17T07:14:50.348Z"
+      "createdAt": "2025-12-23T07:31:53.119Z"
     }
-  ]
+  ],
+  "counters": {
+    "ENTREE": 2,
+    "SORTIE": 4
+  }
 }

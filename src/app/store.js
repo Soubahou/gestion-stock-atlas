@@ -1,11 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import articlesReducer from '../features/articles/articlesSlice';
-import mouvementsReducer from '../features/mouvements/mouvementsSlice';
+import bonsReducer from "../features/bons/bonsSlice";
 
 export const store = configureStore({
   reducer: {
     articles: articlesReducer,
-    mouvements: mouvementsReducer,
+    bons: bonsReducer,
+
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

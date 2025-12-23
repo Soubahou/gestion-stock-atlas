@@ -11,13 +11,12 @@ import {
   Table,
   Spinner as BootstrapSpinner
 } from 'react-bootstrap';
-import { FiArrowLeft, FiEdit, FiTrendingUp, FiPlus, FiMinus, FiPackage, FiDollarSign, FiAlertCircle } from 'react-icons/fi';
+import { FiArrowLeft, FiEdit, FiTrendingUp, FiPackage, FiDollarSign, FiAlertCircle } from 'react-icons/fi';
 import { fetchArticleById } from '../features/articles/articlesSlice';
 
 const ArticleDetail = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const article = useSelector((state) => 
     state.articles.items.find(item => item.id === parseInt(id))
   );
@@ -28,16 +27,6 @@ const ArticleDetail = () => {
       dispatch(fetchArticleById(id));
     }
   }, [dispatch, id, article]);
-
-  const handleNewMouvement = (type) => {
-    navigate('/mouvements/ajouter', {
-      state: {
-        articleId: id,
-        type: type,
-        preFilled: true
-      }
-    });
-  };
 
   if (loading) {
     return (
@@ -229,38 +218,6 @@ const ArticleDetail = () => {
 
         <Col xs={12}>
           <Card className="shadow-sm border-0">
-            <Card.Header className="bg-light">
-              <h5 className="mb-0">Actions Rapides</h5>
-            </Card.Header>
-            <Card.Body>
-              <Row className="g-2">
-                <Col xs={12} sm={6}>
-                  <Button 
-                    variant="primary" 
-                    className="w-100 d-flex align-items-center justify-content-center py-3"
-                    onClick={() => handleNewMouvement('entrée')}
-                  >
-                    <FiPlus size={20} className="me-2" />
-                    <span>Nouvelle Entrée</span>
-                  </Button>
-                </Col>
-                <Col xs={12} sm={6}>
-                  <Button 
-                    variant="danger" 
-                    className="w-100 d-flex align-items-center justify-content-center py-3"
-                    onClick={() => handleNewMouvement('sortie')}
-                  >
-                    <FiMinus size={20} className="me-2" />
-                    <span>Nouvelle Sortie</span>
-                  </Button>
-                </Col>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        <Col xs={12}>
-          <Card className="shadow-sm border-0">
             <Card.Header className="bg-info bg-opacity-10 border-info">
               <div className="d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
@@ -333,19 +290,6 @@ const ArticleDetail = () => {
                 </Table>
               </div>
               
-              {false && ( 
-                <div className="text-center py-5">
-                  <FiTrendingUp size={48} className="text-muted mb-3" />
-                  <h5 className="mb-2">Aucun mouvement</h5>
-                  <p className="text-muted mb-4">Aucun mouvement n'a été enregistré pour cet article.</p>
-                  <Button 
-                    variant="outline-primary" 
-                    onClick={() => handleNewMouvement('entrée')}
-                  >
-                    Créer un premier mouvement
-                  </Button>
-                </div>
-              )}
             </Card.Body>
           </Card>
         </Col>

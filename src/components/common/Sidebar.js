@@ -26,7 +26,7 @@ const Sidebar = () => {
   const menuItems = [
     { path: '/dashboard', icon: <FiHome size={20} />, label: 'Dashboard' },
     { path: '/articles', icon: <FiPackage size={20} />, label: 'Articles' },
-    { path: '/mouvements', icon: <FiTrendingUp size={20} />, label: 'Mouvements' },
+    { path: '/bons', icon: <FiTrendingUp size={20} />, label: 'Bons' },
   ];
 
   return (
@@ -75,8 +75,8 @@ const Sidebar = () => {
           <Link to="/articles/ajouter" className="btn btn-success w-100 mb-2">
             + Nouvel article
           </Link>
-          <Link to="/mouvements/ajouter" className="btn btn-warning w-100">
-            + Nouveau mouvement
+          <Link to="/bon/ajouter" className="btn btn-warning w-100">
+            + Nouveau bon
           </Link>
         </div>
       )}
