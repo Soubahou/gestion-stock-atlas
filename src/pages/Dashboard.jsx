@@ -30,7 +30,7 @@ const Dashboard = () => {
     return a ? a.nom : `Article #${id}`;
   };
 
-  const exportMonthlyReport = () => {
+  const exportReport = () => {
     if (!reportDates.start || !reportDates.end) {
       alert("Veuillez sélectionner la date de début et la date de fin.");
       return;
@@ -218,7 +218,7 @@ const Dashboard = () => {
               </Form>
 
               <div className="d-grid gap-2">
-                <Button variant="primary" size="lg" className="mb-2" onClick={exportMonthlyReport}>
+                <Button variant="primary" size="lg" className="mb-2" onClick={exportReport}>
                   Générer Rapport
                 </Button>
                 <Button variant="success" size="lg" className="mb-2" onClick={exportBonsData}>

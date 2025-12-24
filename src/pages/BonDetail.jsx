@@ -8,12 +8,12 @@ import {
   Card, 
   Badge, 
   Button, 
-  Table,
-  Spinner as BootstrapSpinner
+  Table
 } from 'react-bootstrap';
 import { FiArrowLeft, FiPackage, FiCalendar, FiUsers, FiAlertCircle, FiPrinter } from 'react-icons/fi';
 import { fetchBons } from '../features/bons/bonsSlice';
 import { fetchArticles } from '../features/articles/articlesSlice';
+import Spinner from '../components/common/Spinner';
 
 const BonDetail = () => {
   const { id } = useParams();
@@ -83,13 +83,7 @@ const BonDetail = () => {
   };
 
   if (loading) {
-    return (
-      <div className="text-center py-5">
-        <BootstrapSpinner animation="border" />
-        <p className="mt-2">Chargement du bon...</p>
-      </div>
-    );
-  }
+return <Spinner message="Chargement du bon..." />;  }
 
   if (!bon) {
     return (

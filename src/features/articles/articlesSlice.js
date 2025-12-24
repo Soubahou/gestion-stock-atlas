@@ -92,24 +92,6 @@ const articlesSlice = createSlice({
     },
     clearError: (state) => {
       state.error = null;
-    },
-    addTestData: (state) => {
-      const testData = [
-        {
-          id: Date.now(),
-          reference: `TEST-${Date.now()}`,
-          nom: "Article de test",
-          categorie: "Test",
-          quantite: 10,
-          unite: "pièce",
-          seuilMin: 5,
-          emplacement: "Zone Test",
-          fournisseur: "Fournisseur Test",
-          prixUnitaire: 10.5,
-          createdAt: new Date().toISOString().split('T')[0]
-        }
-      ];
-      state.items = [...testData, ...state.items];
     }
   },
   extraReducers: (builder) => {

@@ -8,8 +8,7 @@ import {
   Card,
   Badge,
   Button,
-  Table,
-  Spinner as BootstrapSpinner,
+  Table
 } from "react-bootstrap";
 import {
   FiArrowLeft,
@@ -22,6 +21,8 @@ import {
 } from "react-icons/fi";
 import { fetchArticleById } from "../features/articles/articlesSlice";
 import { fetchBons } from "../features/bons/bonsSlice";
+import  Spinner from "../components/common/Spinner"
+
 
 const ArticleDetail = () => {
   const { id } = useParams();
@@ -42,12 +43,7 @@ const ArticleDetail = () => {
   }, [dispatch, id, article]);
 
   if (loading) {
-    return (
-      <div className="text-center py-5">
-        <BootstrapSpinner animation="border" />
-        <p className="mt-2">Chargement de l'article...</p>
-      </div>
-    );
+return <Spinner message="Chargement de l'article..." />;
   }
 
   if (!article) {
@@ -303,12 +299,12 @@ const ArticleDetail = () => {
                     {bonsLoading ? (
                       <tr>
                         <td colSpan="5" className="text-center py-4">
-                          <BootstrapSpinner size="sm" />
+                          <Spinner message="Chargement des bons..." />;
                         </td>
                       </tr>
                     ) : articleMovements.length === 0 ? (
                       <tr>
-                        <td colSpan="5" className="text-center py-4 text-muted">
+                        <td colSpan="6" className="text-center py-4 text-muted">
                           Aucun mouvement pour cet article
                         </td>
                       </tr>

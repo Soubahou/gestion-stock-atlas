@@ -9,12 +9,12 @@ import {
   Row, 
   Col, 
   Alert,
-  Form as BootstrapForm,
-  Spinner as BootstrapSpinner
+  Form as BootstrapForm
 } from 'react-bootstrap';
 import { fetchArticleById, updateArticle } from '../features/articles/articlesSlice';
 import { articleSchema } from '../utils/validationSchemas';
 import { FiSave, FiArrowLeft } from 'react-icons/fi';
+import Spinner from '../components/common/Spinner';
 
 const EditArticleForm = () => {
   const { id } = useParams();
@@ -32,12 +32,7 @@ const EditArticleForm = () => {
   }, [dispatch, id, article]);
 
   if (loading) {
-    return (
-      <div className="text-center py-5">
-        <BootstrapSpinner animation="border" />
-        <p className="mt-2">Chargement de l'article...</p>
-      </div>
-    );
+    return <Spinner message="Chargement de l'article..." />;
   }
 
   if (!article) {

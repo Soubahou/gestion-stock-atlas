@@ -67,7 +67,7 @@ const ArticlesList = () => {
 
   if (loading) return <Spinner message="Chargement des articles..." />;
 
-  const categories = [...new Set(articles.map(article => article.categorie))];
+  const categories = ['Quincaillerie', 'Métallerie', 'Électricité', 'Outillage', 'Peinture', 'Soudure'];
 
   return (
     <Container fluid="lg" className="px-md-4 px-3 py-3">

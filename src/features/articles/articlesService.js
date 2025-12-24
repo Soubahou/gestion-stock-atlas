@@ -53,9 +53,9 @@ export const articlesService = {
 
   deleteArticle: async (id) => {
     try {
-      console.log(`📡 [articlesService] Suppression de l'article ${id}...`);
+      console.log(`Suppression de l'article ${id}...`);
       await articlesApi.delete(id);
-      console.log(`✅ [articlesService] Article ${id} supprimé`);
+      console.log(`Article ${id} supprimé`);
       return id;
     } catch (error) {
       return id;
