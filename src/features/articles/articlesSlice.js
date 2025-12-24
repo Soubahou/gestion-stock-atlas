@@ -119,38 +119,31 @@ const articlesSlice = createSlice({
         state.error = null;
       })
       .addCase(fetchArticles.fulfilled, (state, action) => {
-        
         state.loading = false;
         state.lastFetch = new Date().toISOString();
-        
         if (Array.isArray(action.payload)) {
           state.items = action.payload;
         } else {
           state.items = [action.payload].filter(Boolean);
         }
-        
       })
       .addCase(fetchArticles.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload;
         state.items = [];
       })
-
       .addCase(fetchArticleById.fulfilled, (state, action) => {
         state.currentItem = action.payload;
       })
-
       .addCase(createArticle.fulfilled, (state, action) => {
         state.items.unshift(action.payload);
       })
-
       .addCase(updateArticle.fulfilled, (state, action) => {
         const index = state.items.findIndex(item => item.id === action.payload.id);
         if (index !== -1) {
           state.items[index] = action.payload;
         }
       })
-
       .addCase(deleteArticle.fulfilled, (state, action) => {
         state.items = state.items.filter(item => item.id !== action.payload);
       });
@@ -168,25 +161,18 @@ export const selectArticleById = (state, articleId) => {
 
 export const selectFilteredArticles = (state) => {
   const { items, filters } = state.articles;
-
-  
   if (!items || !Array.isArray(items)) {
     return [];
   }
-
   const filtered = items.filter(article => {
     if (!article) return false;
-    
     const matchesSearch = !filters.search || 
       (article.nom && article.nom.toLowerCase().includes(filters.search.toLowerCase())) ||
       (article.reference && article.reference.toLowerCase().includes(filters.search.toLowerCase()));
-    
     const matchesCategory = !filters.category || article.categorie === filters.category;
     const matchesAlert = !filters.stockAlert || article.quantite <= article.seuilMin;
-    
     return matchesSearch && matchesCategory && matchesAlert;
   });
-
   return filtered;
 };
 
@@ -198,28 +184,23 @@ export const selectArticlesError = (state) => state.articles.error;
 
 export const selectArticlesStats = (state) => {
   const items = state.articles.items || [];
-  
   const totalValue = items.reduce((sum, item) => {
     const qte = Number(item.quantite) || 0;
     const prix = Number(item.prixUnitaire) || 0;
     return sum + (qte * prix);
   }, 0);
-  
   const alertCount = items.filter(item => 
     Number(item.quantite) <= Number(item.seuilMin)
   ).length;
-  
   const lowStockCount = items.filter(item => 
     Number(item.quantite) <= (Number(item.seuilMin) * 0.5)
   ).length;
-  
   const stats = {
     totalValue: totalValue.toFixed(2),
     alertCount,
     lowStockCount,
     totalItems: items.length,
   };
-  
   return stats;
 };
 

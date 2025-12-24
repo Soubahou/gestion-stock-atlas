@@ -11,7 +11,7 @@ import {
   Table,
   Spinner as BootstrapSpinner
 } from 'react-bootstrap';
-import { FiArrowLeft, FiPackage, FiCalendar, FiUsers, FiAlertCircle } from 'react-icons/fi';
+import { FiArrowLeft, FiPackage, FiCalendar, FiUsers, FiAlertCircle, FiPrinter } from 'react-icons/fi';
 import { fetchBons } from '../features/bons/bonsSlice';
 import { fetchArticles } from '../features/articles/articlesSlice';
 
@@ -29,6 +29,58 @@ const BonDetail = () => {
     if (!bon) dispatch(fetchBons());
     if (articles.length === 0) dispatch(fetchArticles());
   }, [dispatch, bon, articles.length]);
+
+  const handlePrint = () => {
+    const printContent = `
+      <html>
+        <head>
+          <title>Bon ${bon.ref}</title>
+          <style>
+            body { font-family: Arial, sans-serif; padding: 20px; }
+            h2 { color: #333; }
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+            th { background-color: #f5f5f5; }
+          </style>
+        </head>
+        <body>
+          <h2>Bon: ${bon.ref}</h2>
+          <p><strong>Type:</strong> ${bon.type}</p>
+          <p><strong>Date:</strong> ${bon.date}</p>
+          <p><strong>Utilisateur:</strong> ${bon.utilisateur}</p>
+          ${bon.motif ? `<p><strong>Motif:</strong> ${bon.motif}</p>` : ''}
+          <p><strong>Nombre d'articles:</strong> ${bon.articles.length}</p>
+          <h3>Articles</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Article</th>
+                <th>Quantité</th>
+                <th>Unité</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${bon.articles.map(item => {
+                const article = articles.find(a => a.id === item.articleId);
+                const name = article ? article.nom : `Article #${item.articleId}`;
+                const unite = article?.unite || 'pièce';
+                const qty = bon.type === 'ENTREE' ? `+${item.quantity}` : `-${item.quantity}`;
+                return `<tr>
+                  <td>${name}</td>
+                  <td>${qty}</td>
+                  <td>${unite}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </body>
+      </html>
+    `;
+    const printWindow = window.open('', '', 'width=800,height=600');
+    printWindow.document.write(printContent);
+    printWindow.document.close();
+    printWindow.print();
+  };
 
   if (loading) {
     return (
@@ -99,10 +151,14 @@ const BonDetail = () => {
       </Card>
 
       <Row className="g-4">
-        <Col xs={12} sm={6}>
+        <Col xs={12} sm={12}>
           <Card className="shadow-sm border-0">
-            <Card.Header className="bg-light">
+            <Card.Header className="bg-light d-flex justify-content-between align-items-center">
               <h5 className="mb-0">Informations du Bon</h5>
+              <Button variant="outline-primary" size="sm" onClick={handlePrint} className="d-flex align-items-center">
+                <FiPrinter className="me-2" />
+                Imprimer le Bon
+              </Button>
             </Card.Header>
             <Card.Body>
               <div className="mb-2 d-flex align-items-center">

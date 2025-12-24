@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 export const articleSchema = Yup.object().shape({
   reference: Yup.string()
     .required('La référence est requise')
-    .matches(/^ART-\d{3}$/, 'Format: ART-001'),
+    .matches(/^ART-\d{4}$/, 'Format: ART-0001'),
   nom: Yup.string()
     .required('Le nom est requis')
     .min(3, 'Minimum 3 caractères'),

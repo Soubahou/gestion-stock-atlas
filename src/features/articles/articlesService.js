@@ -1,14 +1,10 @@
 import { articlesApi } from '../../api/mockApi';
 
 export const articlesService = {
-
   fetchArticles: async () => {
     try {
-      
       const response = await articlesApi.getAll();
-      
       return response.data;
-      
     } catch (error) {
       console.log('Erreur:', error);
     }
@@ -17,13 +13,10 @@ export const articlesService = {
   fetchArticleById: async (id) => {
     try {
       const response = await articlesApi.getById(id);
-      
       if (!response || !response.data) {
         throw new Error(`Article ${id} non trouvé`);
       }
-      
       return response.data;
-      
     } catch (error) {
       console.log(`Erreur:`, error.message);
     }
@@ -31,36 +24,27 @@ export const articlesService = {
 
   createArticle: async (articleData) => {
     try {
-      
       const dataWithId = {
         ...articleData,
         id: articleData.id || Date.now(),
         createdAt: articleData.createdAt || new Date().toISOString().split('T')[0]
       };
-      
       const response = await articlesApi.create(dataWithId);
-      
       return response.data;
-      
     } catch (error) {
-      
       const simulatedArticle = {
         ...articleData,
         id: Date.now(),
         createdAt: new Date().toISOString().split('T')[0]
       };
-      
       return simulatedArticle;
     }
   },
 
   updateArticle: async (id, articleData) => {
     try {
-      
       const response = await articlesApi.update(id, articleData);
-      
       return response.data;
-      
     } catch (error) {
       const simulatedArticle = { ...articleData, id: parseInt(id) };
       return simulatedArticle;
@@ -70,14 +54,10 @@ export const articlesService = {
   deleteArticle: async (id) => {
     try {
       console.log(`📡 [articlesService] Suppression de l'article ${id}...`);
-      
       await articlesApi.delete(id);
-      
       console.log(`✅ [articlesService] Article ${id} supprimé`);
       return id;
-      
     } catch (error) {
-      
       return id;
     }
   },
@@ -85,10 +65,8 @@ export const articlesService = {
   searchArticles: async (filters = {}) => {
     try {
       const allArticles = await articlesService.fetchArticles();
-      
       const filteredArticles = allArticles.filter(article => {
         let matches = true;
-        
         if (filters.search) {
           const searchLower = filters.search.toLowerCase();
           matches = matches && (
@@ -97,20 +75,15 @@ export const articlesService = {
             article.categorie.toLowerCase().includes(searchLower)
           );
         }
-        
         if (filters.categorie) {
           matches = matches && article.categorie === filters.categorie;
         }
-        
         if (filters.stockAlert) {
           matches = matches && article.quantite <= article.seuilMin;
         }
-        
         return matches;
       });
-      
       return filteredArticles;
-      
     } catch (error) {
       return [];
     }

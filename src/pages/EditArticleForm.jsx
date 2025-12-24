@@ -15,7 +15,6 @@ import {
 import { fetchArticleById, updateArticle } from '../features/articles/articlesSlice';
 import { articleSchema } from '../utils/validationSchemas';
 import { FiSave, FiArrowLeft } from 'react-icons/fi';
-import { formatCurrency } from '../utils/helpers';
 
 const EditArticleForm = () => {
   const { id } = useParams();
@@ -205,7 +204,7 @@ const EditArticleForm = () => {
                         step="0.01"
                       />
                       <div className="form-text">
-                        Valeur actuelle: {formatCurrency(article.prixUnitaire)}
+                        Valeur actuelle: {(article.prixUnitaire)} MAD
                       </div>
                       <ErrorMessage name="prixUnitaire" component={Alert} variant="danger" />
                     </BootstrapForm.Group>

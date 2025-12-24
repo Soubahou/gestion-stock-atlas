@@ -9,10 +9,6 @@ const api = axios.create({
   },
 });
 
-/* =========================
-   ARTICLES API (UNCHANGED)
-========================= */
-
 export const articlesApi = {
   getAll: () => api.get("/articles"),
   getById: (id) => api.get(`/articles/${id}`),
@@ -21,19 +17,10 @@ export const articlesApi = {
   delete: (id) => api.delete(`/articles/${id}`),
 };
 
-/* =========================
-   BONS API (NEW)
-========================= */
-
 export const bonsApi = {
   getAll: () => api.get("/bons"),
   create: (data) => api.post("/bons", data),
   delete: (id) => api.delete(`/bons/${id}`),
 };
-
-
-/* =========================
-   EXPORT BASE API
-========================= */
 
 export default api;

@@ -38,8 +38,6 @@ export default function AddBonForm() {
   const [type, setType] = useState('ENTREE');
   const [date, setDate] = useState(new Date().toISOString().split('T')[0]);
   const [selectedArticles, setSelectedArticles] = useState([]);
-
-  // Modal state
   const [showModal, setShowModal] = useState(false);
   const [modalArticleId, setModalArticleId] = useState('');
   const [modalQuantity, setModalQuantity] = useState(1);
@@ -100,7 +98,6 @@ export default function AddBonForm() {
       ref
     })).unwrap();
 
-    // Reset form
     setType('ENTREE');
     setSelectedArticles([]);
     setDate(new Date().toISOString().split('T')[0]);
@@ -136,7 +133,6 @@ export default function AddBonForm() {
                   <Form>
                     <Row>
                       <Col md={6}>
-                        {/* Type */}
                         <BootstrapForm.Group className="mb-3">
                           <BootstrapForm.Label>Type *</BootstrapForm.Label>
                           <div>
@@ -165,7 +161,6 @@ export default function AddBonForm() {
                           </div>
                         </BootstrapForm.Group>
 
-                        {/* Date */}
                         <BootstrapForm.Group className="mb-3">
                           <BootstrapForm.Label>Date *</BootstrapForm.Label>
                           <Field
@@ -176,7 +171,6 @@ export default function AddBonForm() {
                             onChange={(e) => { setDate(e.target.value); setFieldValue('date', e.target.value); }}
                           />
                         </BootstrapForm.Group>
-                        {/* Motif */}
                         <BootstrapForm.Group className="mb-3">
                           <BootstrapForm.Label>Motif *</BootstrapForm.Label>
                           <Field as="select" name="motif" className="form-select">
@@ -188,7 +182,6 @@ export default function AddBonForm() {
                           <ErrorMessage name="motif" component={Alert} variant="danger" />
                         </BootstrapForm.Group>
 
-                        {/* Utilisateur */}
                         <BootstrapForm.Group className="mb-3">
                           <BootstrapForm.Label>Utilisateur *</BootstrapForm.Label>
                           <Field as="select" name="utilisateur" className="form-select">
@@ -272,7 +265,6 @@ export default function AddBonForm() {
         </Col>
       </Row>
 
-      {/* Modal for adding articles */}
       <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Ajouter un article</Modal.Title>

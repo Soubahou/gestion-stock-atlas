@@ -7,9 +7,4 @@ export const store = configureStore({
     articles: articlesReducer,
     bons: bonsReducer,
 
-  },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      serializableCheck: false,
-    }),
-});
+  }})

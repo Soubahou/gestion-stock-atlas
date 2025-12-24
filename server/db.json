@@ -1,103 +1,3198 @@
 {
   "articles": [
     {
-      "id": 2,
-      "reference": "ART-002",
-      "nom": "Écrou M8",
+      "id": 1,
+      "reference": "ART-7124",
+      "nom": "Clou galvanisé 60mm",
       "categorie": "Quincaillerie",
-      "quantite": 25,
+      "quantite": 230,
       "unite": "pièce",
-      "seuilMin": 100,
+      "seuilMin": 400,
+      "emplacement": "Rayon A1",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 0.12,
+      "createdAt": "2025-03-15"
+    },
+    {
+      "id": 2,
+      "reference": "ART-3859",
+      "nom": "Vis à bois 5x50",
+      "categorie": "Quincaillerie",
+      "quantite": 816,
+      "unite": "pièce",
+      "seuilMin": 200,
       "emplacement": "Rayon A2",
-      "fournisseur": "Fournisseur B",
-      "prixUnitaire": 1.8,
-      "createdAt": "2024-01-16"
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 0.08,
+      "createdAt": "2025-03-22"
     },
     {
       "id": 3,
-      "reference": "ART-003",
-      "nom": "Plaque acier 2mm",
+      "reference": "ART-9412",
+      "nom": "Écrou M8 inox",
+      "categorie": "Quincaillerie",
+      "quantite": 1560,
+      "unite": "pièce",
+      "seuilMin": 400,
+      "emplacement": "Rayon A3",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 0.15,
+      "createdAt": "2025-04-05"
+    },
+    {
+      "id": 4,
+      "reference": "ART-2678",
+      "nom": "Rondelle 8mm",
+      "categorie": "Quincaillerie",
+      "quantite": 2480,
+      "unite": "pièce",
+      "seuilMin": 600,
+      "emplacement": "Rayon A4",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 0.03,
+      "createdAt": "2025-04-12"
+    },
+    {
+      "id": 5,
+      "reference": "ART-5234",
+      "nom": "Clou à béton 80mm",
+      "categorie": "Quincaillerie",
+      "quantite": 890,
+      "unite": "pièce",
+      "seuilMin": 250,
+      "emplacement": "Rayon A5",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 0.25,
+      "createdAt": "2025-04-18"
+    },
+    {
+      "id": 6,
+      "reference": "ART-1789",
+      "nom": "Tôle aluminium 2mm",
+      "categorie": "Métallerie",
+      "quantite": 18,
+      "unite": "m²",
+      "seuilMin": 8,
+      "emplacement": "Zone B1",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 95.5,
+      "createdAt": "2025-04-25"
+    },
+    {
+      "id": 7,
+      "reference": "ART-6342",
+      "nom": "Plaque acier 4mm",
       "categorie": "Métallerie",
       "quantite": 2,
       "unite": "m²",
       "seuilMin": 5,
-      "emplacement": "Zone B1",
-      "fournisseur": "Fournisseur C",
-      "prixUnitaire": 150,
-      "createdAt": "2024-01-17"
+      "emplacement": "Zone B2",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 145,
+      "createdAt": "2025-05-02"
     },
     {
-      "id": 4,
-      "reference": "ART-004",
+      "id": 8,
+      "reference": "ART-8917",
+      "nom": "Tube inox 32mm",
+      "categorie": "Métallerie",
+      "quantite": 68,
+      "unite": "m",
+      "seuilMin": 25,
+      "emplacement": "Zone B3",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 42.8,
+      "createdAt": "2025-05-09"
+    },
+    {
+      "id": 9,
+      "reference": "ART-3456",
       "nom": "Câble électrique 2.5mm²",
       "categorie": "Électricité",
-      "quantite": 97,
+      "quantite": 425,
       "unite": "m",
-      "seuilMin": 50,
+      "seuilMin": 150,
       "emplacement": "Rayon C1",
-      "fournisseur": "Fournisseur D",
-      "prixUnitaire": 8.5,
-      "createdAt": "2024-01-18"
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 6.8,
+      "createdAt": "2025-05-16"
     },
     {
-      "id": 5,
-      "reference": "ART-005",
+      "id": 10,
+      "reference": "ART-7289",
+      "nom": "Interrupteur double",
+      "categorie": "Électricité",
+      "quantite": 156,
+      "unite": "pièce",
+      "seuilMin": 50,
+      "emplacement": "Rayon C2",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 8.5,
+      "createdAt": "2025-05-23"
+    },
+    {
+      "id": 11,
+      "reference": "ART-4692",
+      "nom": "Prise 32A",
+      "categorie": "Électricité",
+      "quantite": 89,
+      "unite": "pièce",
+      "seuilMin": 30,
+      "emplacement": "Rayon C3",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 12.9,
+      "createdAt": "2025-05-30"
+    },
+    {
+      "id": 12,
+      "reference": "ART-1528",
+      "nom": "Gaine électrique 25mm",
+      "categorie": "Électricité",
+      "quantite": 320,
+      "unite": "m",
+      "seuilMin": 100,
+      "emplacement": "Rayon C4",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 2.4,
+      "createdAt": "2025-06-06"
+    },
+    {
+      "id": 13,
+      "reference": "ART-8316",
+      "nom": "Marteau de forgeron",
+      "categorie": "Outillage",
+      "quantite": 28,
+      "unite": "pièce",
+      "seuilMin": 10,
+      "emplacement": "Zone D1",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 34.9,
+      "createdAt": "2025-06-13"
+    },
+    {
+      "id": 14,
+      "reference": "ART-6741",
+      "nom": "Perceuse 750W",
+      "categorie": "Outillage",
+      "quantite": 18,
+      "unite": "pièce",
+      "seuilMin": 6,
+      "emplacement": "Zone D2",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 189.5,
+      "createdAt": "2025-06-20"
+    },
+    {
+      "id": 15,
+      "reference": "ART-2983",
+      "nom": "Scie sauteuse",
+      "categorie": "Outillage",
+      "quantite": 3,
+      "unite": "pièce",
+      "seuilMin": 5,
+      "emplacement": "Zone D3",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 125,
+      "createdAt": "2025-06-27"
+    },
+    {
+      "id": 16,
+      "reference": "ART-7654",
       "nom": "Peinture blanche mate",
+      "categorie": "Peinture",
+      "quantite": 10,
+      "unite": "L",
+      "seuilMin": 25,
+      "emplacement": "Zone E1",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 28.9,
+      "createdAt": "2025-07-04"
+    },
+    {
+      "id": 17,
+      "reference": "ART-4398",
+      "nom": "Peinture grise satin",
+      "categorie": "Peinture",
+      "quantite": 65,
+      "unite": "L",
+      "seuilMin": 20,
+      "emplacement": "Zone E2",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 32.5,
+      "createdAt": "2025-07-11"
+    },
+    {
+      "id": 18,
+      "reference": "ART-9125",
+      "nom": "Peinture noire brillante",
+      "categorie": "Peinture",
+      "quantite": 42,
+      "unite": "L",
+      "seuilMin": 15,
+      "emplacement": "Zone E3",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 45.8,
+      "createdAt": "2025-07-18"
+    },
+    {
+      "id": 19,
+      "reference": "ART-2873",
+      "nom": "Poste à souder MIG",
+      "categorie": "Soudure",
+      "quantite": 3,
+      "unite": "pièce",
+      "seuilMin": 3,
+      "emplacement": "Zone F1",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 1450,
+      "createdAt": "2025-07-25"
+    },
+    {
+      "id": 20,
+      "reference": "ART-5168",
+      "nom": "Électrode 3.2mm",
+      "categorie": "Soudure",
+      "quantite": 245,
+      "unite": "kg",
+      "seuilMin": 80,
+      "emplacement": "Zone F2",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 9.8,
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 21,
+      "reference": "ART-6247",
+      "nom": "Agrafe T18",
+      "categorie": "Quincaillerie",
+      "quantite": 1540,
+      "unite": "pièce",
+      "seuilMin": 500,
+      "emplacement": "Rayon A6",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 0.08,
+      "createdAt": "2025-08-08"
+    },
+    {
+      "id": 22,
+      "reference": "ART-3591",
+      "nom": "Collier de serrage 16-18",
+      "categorie": "Quincaillerie",
+      "quantite": 890,
+      "unite": "pièce",
+      "seuilMin": 300,
+      "emplacement": "Rayon A7",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 0.45,
+      "createdAt": "2025-08-15"
+    },
+    {
+      "id": 23,
+      "reference": "ART-8462",
+      "nom": "Charnière piano 1m",
+      "categorie": "Quincaillerie",
+      "quantite": 45,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Rayon A8",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 12.8,
+      "createdAt": "2025-08-22"
+    },
+    {
+      "id": 24,
+      "reference": "ART-1784",
+      "nom": "Crochet mural",
+      "categorie": "Quincaillerie",
+      "quantite": 320,
+      "unite": "pièce",
+      "seuilMin": 100,
+      "emplacement": "Rayon A9",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 2.9,
+      "createdAt": "2025-08-29"
+    },
+    {
+      "id": 25,
+      "reference": "ART-5329",
+      "nom": "Cadenas à code",
+      "categorie": "Quincaillerie",
+      "quantite": 68,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Rayon A10",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 18.5,
+      "createdAt": "2025-09-05"
+    },
+    {
+      "id": 26,
+      "reference": "ART-7193",
+      "nom": "Profilé acier 40x40",
+      "categorie": "Métallerie",
+      "quantite": 85,
+      "unite": "m",
+      "seuilMin": 30,
+      "emplacement": "Zone B4",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 24.9,
+      "createdAt": "2025-09-12"
+    },
+    {
+      "id": 27,
+      "reference": "ART-3815",
+      "nom": "Grille métallique 10x10",
+      "categorie": "Métallerie",
+      "quantite": 42,
+      "unite": "m²",
+      "seuilMin": 15,
+      "emplacement": "Zone B5",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 68.5,
+      "createdAt": "2025-09-19"
+    },
+    {
+      "id": 28,
+      "reference": "ART-5628",
+      "nom": "Cornière acier 40x40",
+      "categorie": "Métallerie",
+      "quantite": 156,
+      "unite": "m",
+      "seuilMin": 50,
+      "emplacement": "Zone B6",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 18.2,
+      "createdAt": "2025-09-26"
+    },
+    {
+      "id": 29,
+      "reference": "ART-8941",
+      "nom": "Fil électrique 1mm²",
+      "categorie": "Électricité",
+      "quantite": 580,
+      "unite": "m",
+      "seuilMin": 200,
+      "emplacement": "Rayon C5",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 3.2,
+      "createdAt": "2025-10-03"
+    },
+    {
+      "id": 30,
+      "reference": "ART-2378",
+      "nom": "Disjoncteur 16A",
+      "categorie": "Électricité",
+      "quantite": 125,
+      "unite": "pièce",
+      "seuilMin": 40,
+      "emplacement": "Rayon C6",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 15.8,
+      "createdAt": "2025-10-10"
+    },
+    {
+      "id": 31,
+      "reference": "ART-6819",
+      "nom": "Boîte encastrée",
+      "categorie": "Électricité",
+      "quantite": 280,
+      "unite": "pièce",
+      "seuilMin": 100,
+      "emplacement": "Rayon C7",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 3.5,
+      "createdAt": "2025-10-17"
+    },
+    {
+      "id": 32,
+      "reference": "ART-4193",
+      "nom": "Détecteur de mouvement",
+      "categorie": "Électricité",
+      "quantite": 75,
+      "unite": "pièce",
+      "seuilMin": 25,
+      "emplacement": "Rayon C8",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 28.9,
+      "createdAt": "2025-10-24"
+    },
+    {
+      "id": 33,
+      "reference": "ART-7536",
+      "nom": "Tournevis étoile",
+      "categorie": "Outillage",
+      "quantite": 95,
+      "unite": "pièce",
+      "seuilMin": 30,
+      "emplacement": "Zone D4",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 7.8,
+      "createdAt": "2025-10-31"
+    },
+    {
+      "id": 34,
+      "reference": "ART-2989",
+      "nom": "Pince coupante",
+      "categorie": "Outillage",
+      "quantite": 68,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Zone D5",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 14.5,
+      "createdAt": "2025-11-07"
+    },
+    {
+      "id": 35,
+      "reference": "ART-6127",
+      "nom": "Niveau à bulle",
+      "categorie": "Outillage",
+      "quantite": 42,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Zone D6",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 22.9,
+      "createdAt": "2025-11-14"
+    },
+    {
+      "id": 36,
+      "reference": "ART-8465",
+      "nom": "Peinture bleue mate",
+      "categorie": "Peinture",
+      "quantite": 54,
+      "unite": "L",
+      "seuilMin": 18,
+      "emplacement": "Zone E4",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 36.8,
+      "createdAt": "2025-11-21"
+    },
+    {
+      "id": 37,
+      "reference": "ART-3718",
+      "nom": "Vernis incolore",
+      "categorie": "Peinture",
+      "quantite": 68,
+      "unite": "L",
+      "seuilMin": 22,
+      "emplacement": "Zone E5",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 29.5,
+      "createdAt": "2025-11-28"
+    },
+    {
+      "id": 38,
+      "reference": "ART-9290",
+      "nom": "Masque de soudure",
+      "categorie": "Soudure",
+      "quantite": 35,
+      "unite": "pièce",
+      "seuilMin": 12,
+      "emplacement": "Zone F3",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 42.5,
+      "createdAt": "2025-12-05"
+    },
+    {
+      "id": 39,
+      "reference": "ART-4635",
+      "nom": "Fil à souder 1mm",
+      "categorie": "Soudure",
+      "quantite": 185,
+      "unite": "kg",
+      "seuilMin": 60,
+      "emplacement": "Zone F4",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 11.2,
+      "createdAt": "2025-12-12"
+    },
+    {
+      "id": 40,
+      "reference": "ART-5832",
+      "nom": "Gants de soudure",
+      "categorie": "Soudure",
+      "quantite": 48,
+      "unite": "paire",
+      "seuilMin": 16,
+      "emplacement": "Zone F5",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 24.9,
+      "createdAt": "2025-12-19"
+    },
+    {
+      "id": 41,
+      "reference": "ART-7146",
+      "nom": "Boulon M10 x 100",
+      "categorie": "Quincaillerie",
+      "quantite": 420,
+      "unite": "pièce",
+      "seuilMin": 150,
+      "emplacement": "Rayon A11",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 1.85,
+      "createdAt": "2025-12-26"
+    },
+    {
+      "id": 42,
+      "reference": "ART-3821",
+      "nom": "Rivet aluminium 4mm",
+      "categorie": "Quincaillerie",
+      "quantite": 1250,
+      "unite": "pièce",
+      "seuilMin": 400,
+      "emplacement": "Rayon A12",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 0.15,
+      "createdAt": "2025-01-02"
+    },
+    {
+      "id": 43,
+      "reference": "ART-5631",
+      "nom": "Fer à béton 10mm",
+      "categorie": "Métallerie",
+      "quantite": 850,
+      "unite": "m",
+      "seuilMin": 300,
+      "emplacement": "Zone B7",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 8.9,
+      "createdAt": "2025-01-09"
+    },
+    {
+      "id": 44,
+      "reference": "ART-8944",
+      "nom": "Fil d'acier galvanisé",
+      "categorie": "Métallerie",
+      "quantite": 45,
+      "unite": "kg",
+      "seuilMin": 15,
+      "emplacement": "Zone B8",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 6.5,
+      "createdAt": "2025-01-16"
+    },
+    {
+      "id": 45,
+      "reference": "ART-2381",
+      "nom": "Câble électrique 4mm²",
+      "categorie": "Électricité",
+      "quantite": 320,
+      "unite": "m",
+      "seuilMin": 100,
+      "emplacement": "Rayon C9",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 8.5,
+      "createdAt": "2025-01-23"
+    },
+    {
+      "id": 46,
+      "reference": "ART-6822",
+      "nom": "Variateurs de lumière",
+      "categorie": "Électricité",
+      "quantite": 65,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Rayon C10",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 34.8,
+      "createdAt": "2025-01-30"
+    },
+    {
+      "id": 47,
+      "reference": "ART-4196",
+      "nom": "Transformateur 220V/12V",
+      "categorie": "Électricité",
+      "quantite": 28,
+      "unite": "pièce",
+      "seuilMin": 10,
+      "emplacement": "Rayon C11",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 42.9,
+      "createdAt": "2025-02-06"
+    },
+    {
+      "id": 48,
+      "reference": "ART-7539",
+      "nom": "Câble TV coaxial",
+      "categorie": "Électricité",
+      "quantite": 280,
+      "unite": "m",
+      "seuilMin": 100,
+      "emplacement": "Rayon C12",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 2.8,
+      "createdAt": "2025-02-13"
+    },
+    {
+      "id": 49,
+      "reference": "ART-2992",
+      "nom": "Scie à métaux",
+      "categorie": "Outillage",
+      "quantite": 35,
+      "unite": "pièce",
+      "seuilMin": 12,
+      "emplacement": "Zone D7",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 28.5,
+      "createdAt": "2025-02-20"
+    },
+    {
+      "id": 50,
+      "reference": "ART-6130",
+      "nom": "Meuleuse d'angle 125mm",
+      "categorie": "Outillage",
+      "quantite": 22,
+      "unite": "pièce",
+      "seuilMin": 8,
+      "emplacement": "Zone D8",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 89.9,
+      "createdAt": "2025-02-27"
+    },
+    {
+      "id": 51,
+      "reference": "ART-8468",
+      "nom": "Clé à molette 250mm",
+      "categorie": "Outillage",
+      "quantite": 58,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Zone D9",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 18.5,
+      "createdAt": "2025-03-06"
+    },
+    {
+      "id": 52,
+      "reference": "ART-3721",
+      "nom": "Pistolet à peinture",
+      "categorie": "Outillage",
+      "quantite": 17,
+      "unite": "pièce",
+      "seuilMin": 10,
+      "emplacement": "Zone D10",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 65.8,
+      "createdAt": "2025-03-13"
+    },
+    {
+      "id": 53,
+      "reference": "ART-9293",
+      "nom": "Peinture jaune satin",
+      "categorie": "Peinture",
+      "quantite": 42,
+      "unite": "L",
+      "seuilMin": 15,
+      "emplacement": "Zone E6",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 38.9,
+      "createdAt": "2025-03-20"
+    },
+    {
+      "id": 54,
+      "reference": "ART-4638",
+      "nom": "Apprêt universel",
+      "categorie": "Peinture",
+      "quantite": 85,
+      "unite": "L",
+      "seuilMin": 30,
+      "emplacement": "Zone E7",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 24.5,
+      "createdAt": "2025-03-27"
+    },
+    {
+      "id": 55,
+      "reference": "ART-5835",
+      "nom": "Peinture vert brillant",
+      "categorie": "Peinture",
+      "quantite": 36,
+      "unite": "L",
+      "seuilMin": 12,
+      "emplacement": "Zone E8",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 42.8,
+      "createdAt": "2025-04-03"
+    },
+    {
+      "id": 56,
+      "reference": "ART-7149",
+      "nom": "Peinture rouge antirouille",
+      "categorie": "Peinture",
+      "quantite": 68,
+      "unite": "L",
+      "seuilMin": 25,
+      "emplacement": "Zone E9",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 28.9,
+      "createdAt": "2025-04-10"
+    },
+    {
+      "id": 57,
+      "reference": "ART-3824",
+      "nom": "Poste à souder TIG",
+      "categorie": "Soudure",
+      "quantite": 5,
+      "unite": "pièce",
+      "seuilMin": 2,
+      "emplacement": "Zone F6",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 1950,
+      "createdAt": "2025-04-17"
+    },
+    {
+      "id": 58,
+      "reference": "ART-5634",
+      "nom": "Fil fourré 0.8mm",
+      "categorie": "Soudure",
+      "quantite": 32,
+      "unite": "kg",
+      "seuilMin": 12,
+      "emplacement": "Zone F7",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 14.8,
+      "createdAt": "2025-04-24"
+    },
+    {
+      "id": 59,
+      "reference": "ART-8947",
+      "nom": "Casque soudure auto-obscurcissant",
+      "categorie": "Soudure",
+      "quantite": 18,
+      "unite": "pièce",
+      "seuilMin": 6,
+      "emplacement": "Zone F8",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 125.5,
+      "createdAt": "2025-05-01"
+    },
+    {
+      "id": 60,
+      "reference": "ART-2384",
+      "nom": "Électrode inox 2.5mm",
+      "categorie": "Soudure",
+      "quantite": 145,
+      "unite": "kg",
+      "seuilMin": 50,
+      "emplacement": "Zone F9",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 18.9,
+      "createdAt": "2025-05-08"
+    },
+    {
+      "id": 61,
+      "reference": "ART-6825",
+      "nom": "Clou tête plate 40mm",
+      "categorie": "Quincaillerie",
+      "quantite": 2800,
+      "unite": "boîte",
+      "seuilMin": 1000,
+      "emplacement": "Rayon A13",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 8.9,
+      "createdAt": "2025-05-15"
+    },
+    {
+      "id": 62,
+      "reference": "ART-4199",
+      "nom": "Cheville métallique 8mm",
+      "categorie": "Quincaillerie",
+      "quantite": 560,
+      "unite": "boîte",
+      "seuilMin": 200,
+      "emplacement": "Rayon A14",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 12.5,
+      "createdAt": "2025-05-22"
+    },
+    {
+      "id": 63,
+      "reference": "ART-7542",
+      "nom": "Goupille fendue 5mm",
+      "categorie": "Quincaillerie",
+      "quantite": 890,
+      "unite": "boîte",
+      "seuilMin": 300,
+      "emplacement": "Rayon A15",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 6.8,
+      "createdAt": "2025-05-29"
+    },
+    {
+      "id": 64,
+      "reference": "ART-2995",
+      "nom": "Tôle inox 1.5mm",
+      "categorie": "Métallerie",
+      "quantite": 22,
+      "unite": "m²",
+      "seuilMin": 8,
+      "emplacement": "Zone B9",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 125.8,
+      "createdAt": "2025-06-05"
+    },
+    {
+      "id": 65,
+      "reference": "ART-6133",
+      "nom": "Barre cuivre 10mm",
+      "categorie": "Métallerie",
+      "quantite": 85,
+      "unite": "kg",
+      "seuilMin": 30,
+      "emplacement": "Zone B10",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 45.9,
+      "createdAt": "2025-06-12"
+    },
+    {
+      "id": 66,
+      "reference": "ART-8471",
+      "nom": "Profilé alu 20x20",
+      "categorie": "Métallerie",
+      "quantite": 156,
+      "unite": "m",
+      "seuilMin": 50,
+      "emplacement": "Zone B11",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 12.8,
+      "createdAt": "2025-06-19"
+    },
+    {
+      "id": 67,
+      "reference": "ART-3724",
+      "nom": "Interrupteur va-et-vient",
+      "categorie": "Électricité",
+      "quantite": 185,
+      "unite": "pièce",
+      "seuilMin": 60,
+      "emplacement": "Rayon C13",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 6.9,
+      "createdAt": "2025-06-26"
+    },
+    {
+      "id": 68,
+      "reference": "ART-9296",
+      "nom": "Douille E27",
+      "categorie": "Électricité",
+      "quantite": 320,
+      "unite": "pièce",
+      "seuilMin": 100,
+      "emplacement": "Rayon C14",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 2.5,
+      "createdAt": "2025-07-03"
+    },
+    {
+      "id": 69,
+      "reference": "ART-4641",
+      "nom": "Câble souple 6mm²",
+      "categorie": "Électricité",
+      "quantite": 180,
+      "unite": "m",
+      "seuilMin": 60,
+      "emplacement": "Rayon C15",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 14.8,
+      "createdAt": "2025-07-10"
+    },
+    {
+      "id": 70,
+      "reference": "ART-5838",
+      "nom": "Contacteur jour/nuit",
+      "categorie": "Électricité",
+      "quantite": 48,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Rayon C16",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 32.5,
+      "createdAt": "2025-07-17"
+    },
+    {
+      "id": 71,
+      "reference": "ART-7152",
+      "nom": "Ponceuse à bande",
+      "categorie": "Outillage",
+      "quantite": 12,
+      "unite": "pièce",
+      "seuilMin": 4,
+      "emplacement": "Zone D11",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 189.9,
+      "createdAt": "2025-07-24"
+    },
+    {
+      "id": 72,
+      "reference": "ART-3827",
+      "nom": "Clé mixte 17mm",
+      "categorie": "Outillage",
+      "quantite": 65,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Zone D12",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 9.8,
+      "createdAt": "2025-07-31"
+    },
+    {
+      "id": 73,
+      "reference": "ART-5637",
+      "nom": "Mètre ruban 5m",
+      "categorie": "Outillage",
+      "quantite": 85,
+      "unite": "pièce",
+      "seuilMin": 30,
+      "emplacement": "Zone D13",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 7.5,
+      "createdAt": "2025-08-07"
+    },
+    {
+      "id": 74,
+      "reference": "ART-8950",
+      "nom": "Scie égoïne",
+      "categorie": "Outillage",
+      "quantite": 42,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Zone D14",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 18.9,
+      "createdAt": "2025-08-14"
+    },
+    {
+      "id": 75,
+      "reference": "ART-2387",
+      "nom": "Peinture aluminium",
+      "categorie": "Peinture",
+      "quantite": 52,
+      "unite": "L",
+      "seuilMin": 18,
+      "emplacement": "Zone E10",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 52.8,
+      "createdAt": "2025-08-21"
+    },
+    {
+      "id": 76,
+      "reference": "ART-6828",
+      "nom": "Peinture marron satin",
+      "categorie": "Peinture",
+      "quantite": 38,
+      "unite": "L",
+      "seuilMin": 12,
+      "emplacement": "Zone E11",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 39.5,
+      "createdAt": "2025-08-28"
+    },
+    {
+      "id": 77,
+      "reference": "ART-4202",
+      "nom": "Primer adhésif",
       "categorie": "Peinture",
       "quantite": 45,
       "unite": "L",
-      "seuilMin": 20,
-      "emplacement": "Zone D2",
-      "fournisseur": "Fournisseur E",
-      "prixUnitaire": 85,
-      "createdAt": "2024-01-19"
+      "seuilMin": 15,
+      "emplacement": "Zone E12",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 28.9,
+      "createdAt": "2025-09-04"
     },
     {
-      "id": 1765856549850,
-      "reference": "ART-648",
-      "nom": "Vis M6 x 20mm",
-      "categorie": "Quincaillerie",
-      "quantite": 20,
+      "id": 78,
+      "reference": "ART-7545",
+      "nom": "Époxy bicomposant",
+      "categorie": "Peinture",
+      "quantite": 32,
       "unite": "boîte",
+      "seuilMin": 12,
+      "emplacement": "Zone E13",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 45.5,
+      "createdAt": "2025-09-11"
+    },
+    {
+      "id": 79,
+      "reference": "ART-2998",
+      "nom": "Kit soudure oxyacétylénique",
+      "categorie": "Soudure",
+      "quantite": 8,
+      "unite": "pièce",
+      "seuilMin": 3,
+      "emplacement": "Zone F10",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 850,
+      "createdAt": "2025-09-18"
+    },
+    {
+      "id": 80,
+      "reference": "ART-6136",
+      "nom": "Électrode rutile 4mm",
+      "categorie": "Soudure",
+      "quantite": 92,
+      "unite": "kg",
+      "seuilMin": 30,
+      "emplacement": "Zone F11",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 10.8,
+      "createdAt": "2025-09-25"
+    },
+    {
+      "id": 81,
+      "reference": "ART-8474",
+      "nom": "Vis à tôle 4.2x16",
+      "categorie": "Quincaillerie",
+      "quantite": 1850,
+      "unite": "boîte",
+      "seuilMin": 600,
+      "emplacement": "Rayon A16",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 15.8,
+      "createdAt": "2025-10-02"
+    },
+    {
+      "id": 82,
+      "reference": "ART-3727",
+      "nom": "Goujon M12",
+      "categorie": "Quincaillerie",
+      "quantite": 680,
+      "unite": "boîte",
+      "seuilMin": 200,
+      "emplacement": "Rayon A17",
+      "fournisseur": "Fournisseur MétalPro",
+      "prixUnitaire": 24.5,
+      "createdAt": "2025-10-09"
+    },
+    {
+      "id": 83,
+      "reference": "ART-9299",
+      "nom": "Agrafeuse murale",
+      "categorie": "Quincaillerie",
+      "quantite": 28,
+      "unite": "pièce",
       "seuilMin": 10,
-      "emplacement": "Rayon A2",
-      "fournisseur": "Fournisseur F",
-      "prixUnitaire": 15.3,
-      "createdAt": "2025-12-16"
+      "emplacement": "Rayon A18",
+      "fournisseur": "FixTech",
+      "prixUnitaire": 42.9,
+      "createdAt": "2025-10-16"
+    },
+    {
+      "id": 84,
+      "reference": "ART-4644",
+      "nom": "Tube acier 25mm",
+      "categorie": "Métallerie",
+      "quantite": 145,
+      "unite": "m",
+      "seuilMin": 50,
+      "emplacement": "Zone B12",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 18.9,
+      "createdAt": "2025-10-23"
+    },
+    {
+      "id": 85,
+      "reference": "ART-5841",
+      "nom": "Plaque laiton 3mm",
+      "categorie": "Métallerie",
+      "quantite": 15,
+      "unite": "m²",
+      "seuilMin": 5,
+      "emplacement": "Zone B13",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 189.5,
+      "createdAt": "2025-10-30"
+    },
+    {
+      "id": 86,
+      "reference": "ART-7155",
+      "nom": "Plomb de soudure",
+      "categorie": "Métallerie",
+      "quantite": 58,
+      "unite": "kg",
+      "seuilMin": 20,
+      "emplacement": "Zone B14",
+      "fournisseur": "Acier & Compagnie",
+      "prixUnitaire": 32.8,
+      "createdAt": "2025-11-06"
+    },
+    {
+      "id": 87,
+      "reference": "ART-3830",
+      "nom": "Prise RJ45",
+      "categorie": "Électricité",
+      "quantite": 265,
+      "unite": "pièce",
+      "seuilMin": 80,
+      "emplacement": "Rayon C17",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 3.8,
+      "createdAt": "2025-11-13"
+    },
+    {
+      "id": 88,
+      "reference": "ART-5640",
+      "nom": "Interphone",
+      "categorie": "Électricité",
+      "quantite": 32,
+      "unite": "pièce",
+      "seuilMin": 10,
+      "emplacement": "Rayon C18",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 89.9,
+      "createdAt": "2025-11-20"
+    },
+    {
+      "id": 89,
+      "reference": "ART-8953",
+      "nom": "Câble audio",
+      "categorie": "Électricité",
+      "quantite": 220,
+      "unite": "m",
+      "seuilMin": 75,
+      "emplacement": "Rayon C19",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 4.2,
+      "createdAt": "2025-11-27"
+    },
+    {
+      "id": 90,
+      "reference": "ART-2390",
+      "nom": "Câble USB",
+      "categorie": "Électricité",
+      "quantite": 185,
+      "unite": "pièce",
+      "seuilMin": 60,
+      "emplacement": "Rayon C20",
+      "fournisseur": "ElecPro",
+      "prixUnitaire": 6.9,
+      "createdAt": "2025-12-04"
+    },
+    {
+      "id": 91,
+      "reference": "ART-6831",
+      "nom": "Tournevis testeur",
+      "categorie": "Outillage",
+      "quantite": 48,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Zone D15",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 12.8,
+      "createdAt": "2025-12-11"
+    },
+    {
+      "id": 92,
+      "reference": "ART-4205",
+      "nom": "Pince à dénuder",
+      "categorie": "Outillage",
+      "quantite": 65,
+      "unite": "pièce",
+      "seuilMin": 20,
+      "emplacement": "Zone D16",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 15.9,
+      "createdAt": "2025-12-18"
+    },
+    {
+      "id": 93,
+      "reference": "ART-7548",
+      "nom": "Râpe à bois",
+      "categorie": "Outillage",
+      "quantite": 85,
+      "unite": "pièce",
+      "seuilMin": 30,
+      "emplacement": "Zone D17",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 8.5,
+      "createdAt": "2025-12-25"
+    },
+    {
+      "id": 94,
+      "reference": "ART-3001",
+      "nom": "Burin de maçon",
+      "categorie": "Outillage",
+      "quantite": 42,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Zone D18",
+      "fournisseur": "ToolsMaster",
+      "prixUnitaire": 14.8,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 95,
+      "reference": "ART-6139",
+      "nom": "Peinture violette",
+      "categorie": "Peinture",
+      "quantite": 28,
+      "unite": "L",
+      "seuilMin": 10,
+      "emplacement": "Zone E14",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 48.9,
+      "createdAt": "2026-01-08"
+    },
+    {
+      "id": 96,
+      "reference": "ART-8477",
+      "nom": "Peinture orange fluo",
+      "categorie": "Peinture",
+      "quantite": 32,
+      "unite": "L",
+      "seuilMin": 12,
+      "emplacement": "Zone E15",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 52.5,
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": 97,
+      "reference": "ART-3730",
+      "nom": "Lasure teck",
+      "categorie": "Peinture",
+      "quantite": 65,
+      "unite": "L",
+      "seuilMin": 25,
+      "emplacement": "Zone E16",
+      "fournisseur": "PaintExpert",
+      "prixUnitaire": 34.8,
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": 98,
+      "reference": "ART-9302",
+      "nom": "Soudeuse à points",
+      "categorie": "Soudure",
+      "quantite": 6,
+      "unite": "pièce",
+      "seuilMin": 2,
+      "emplacement": "Zone F12",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 1250,
+      "createdAt": "2026-01-29"
+    },
+    {
+      "id": 99,
+      "reference": "ART-4647",
+      "nom": "Brosse métallique",
+      "categorie": "Soudure",
+      "quantite": 95,
+      "unite": "pièce",
+      "seuilMin": 30,
+      "emplacement": "Zone F13",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 4.8,
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": 100,
+      "reference": "ART-5844",
+      "nom": "Crayon thermique",
+      "categorie": "Soudure",
+      "quantite": 45,
+      "unite": "pièce",
+      "seuilMin": 15,
+      "emplacement": "Zone F14",
+      "fournisseur": "WeldPro",
+      "prixUnitaire": 8.9,
+      "createdAt": "2026-02-12"
     }
   ],
   "bons": [
     {
-      "id": 1766440755497,
-      "ref": "BON-SOR-0003",
+      "id": 1,
+      "ref": "BON-ENT-4182",
+      "type": "ENTREE",
+      "date": "2025-09-15",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 500
+        },
+        {
+          "articleId": 3,
+          "quantity": 300
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-09-15T09:15:00.000Z"
+    },
+    {
+      "id": 2,
+      "ref": "BON-SOR-7284",
+      "type": "SORTIE",
+      "date": "2025-09-16",
+      "articles": [
+        {
+          "articleId": 13,
+          "quantity": 5
+        },
+        {
+          "articleId": 16,
+          "quantity": 12
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-09-16T11:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "ref": "BON-ENT-6391",
+      "type": "ENTREE",
+      "date": "2025-09-17",
+      "articles": [
+        {
+          "articleId": 6,
+          "quantity": 8
+        },
+        {
+          "articleId": 9,
+          "quantity": 150
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-09-17T08:50:00.000Z"
+    },
+    {
+      "id": 4,
+      "ref": "BON-SOR-1527",
+      "type": "SORTIE",
+      "date": "2025-09-18",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 120
+        },
+        {
+          "articleId": 9,
+          "quantity": 45
+        },
+        {
+          "articleId": 13,
+          "quantity": 3
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-09-18T12:45:00.000Z"
+    },
+    {
+      "id": 5,
+      "ref": "BON-ENT-2843",
+      "type": "ENTREE",
+      "date": "2025-09-19",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 250
+        },
+        {
+          "articleId": 6,
+          "quantity": 5
+        },
+        {
+          "articleId": 9,
+          "quantity": 100
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-09-19T10:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "ref": "BON-SOR-3972",
+      "type": "SORTIE",
+      "date": "2025-09-20",
+      "articles": [
+        {
+          "articleId": 16,
+          "quantity": 8
+        },
+        {
+          "articleId": 13,
+          "quantity": 2
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-09-20T14:20:00.000Z"
+    },
+    {
+      "id": 7,
+      "ref": "BON-SOR-5186",
+      "type": "SORTIE",
+      "date": "2025-09-21",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 85
+        },
+        {
+          "articleId": 9,
+          "quantity": 60
+        },
+        {
+          "articleId": 16,
+          "quantity": 5
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Manager",
+      "createdAt": "2025-09-21T09:30:00.000Z"
+    },
+    {
+      "id": 8,
+      "ref": "BON-ENT-6729",
+      "type": "ENTREE",
+      "date": "2025-09-22",
+      "articles": [
+        {
+          "articleId": 6,
+          "quantity": 6
+        },
+        {
+          "articleId": 13,
+          "quantity": 8
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-09-22T11:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "ref": "BON-ENT-5192",
+      "type": "ENTREE",
+      "date": "2025-09-23",
+      "articles": [
+        {
+          "articleId": 20,
+          "quantity": 120
+        },
+        {
+          "articleId": 30,
+          "quantity": 45
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-09-23T10:15:00.000Z"
+    },
+    {
+      "id": 10,
+      "ref": "BON-SOR-6285",
+      "type": "SORTIE",
+      "date": "2025-09-24",
+      "articles": [
+        {
+          "articleId": 10,
+          "quantity": 25
+        },
+        {
+          "articleId": 25,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-09-24T14:30:00.000Z"
+    },
+    {
+      "id": 11,
+      "ref": "BON-ENT-7391",
+      "type": "ENTREE",
+      "date": "2025-09-25",
+      "articles": [
+        {
+          "articleId": 15,
+          "quantity": 8
+        },
+        {
+          "articleId": 35,
+          "quantity": 15
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Admin",
+      "createdAt": "2025-09-25T09:45:00.000Z"
+    },
+    {
+      "id": 12,
+      "ref": "BON-ENT-8524",
+      "type": "ENTREE",
+      "date": "2025-09-26",
+      "articles": [
+        {
+          "articleId": 40,
+          "quantity": 20
+        },
+        {
+          "articleId": 50,
+          "quantity": 10
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-09-26T11:20:00.000Z"
+    },
+    {
+      "id": 13,
+      "ref": "BON-SOR-9417",
+      "type": "SORTIE",
+      "date": "2025-09-27",
+      "articles": [
+        {
+          "articleId": 5,
+          "quantity": 150
+        },
+        {
+          "articleId": 55,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-09-27T13:45:00.000Z"
+    },
+    {
+      "id": 14,
+      "ref": "BON-ENT-1638",
+      "type": "ENTREE",
+      "date": "2025-09-28",
+      "articles": [
+        {
+          "articleId": 60,
+          "quantity": 65
+        },
+        {
+          "articleId": 70,
+          "quantity": 15
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-09-28T08:30:00.000Z"
+    },
+    {
+      "id": 15,
+      "ref": "BON-ENT-2749",
+      "type": "ENTREE",
+      "date": "2025-09-29",
+      "articles": [
+        {
+          "articleId": 45,
+          "quantity": 120
+        },
+        {
+          "articleId": 75,
+          "quantity": 15
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-09-29T10:50:00.000Z"
+    },
+    {
+      "id": 16,
+      "ref": "BON-SOR-3852",
+      "type": "SORTIE",
+      "date": "2025-09-30",
+      "articles": [
+        {
+          "articleId": 20,
+          "quantity": 35
+        },
+        {
+          "articleId": 65,
+          "quantity": 25
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-09-30T15:15:00.000Z"
+    },
+    {
+      "id": 17,
+      "ref": "BON-ENT-4963",
+      "type": "ENTREE",
+      "date": "2025-10-01",
+      "articles": [
+        {
+          "articleId": 80,
+          "quantity": 40
+        },
+        {
+          "articleId": 85,
+          "quantity": 5
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-01T09:10:00.000Z"
+    },
+    {
+      "id": 18,
+      "ref": "BON-SOR-5178",
+      "type": "SORTIE",
+      "date": "2025-10-02",
+      "articles": [
+        {
+          "articleId": 30,
+          "quantity": 18
+        },
+        {
+          "articleId": 95,
+          "quantity": 5
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-10-02T14:25:00.000Z"
+    },
+    {
+      "id": 19,
+      "ref": "BON-ENT-6284",
+      "type": "ENTREE",
+      "date": "2025-10-03",
+      "articles": [
+        {
+          "articleId": 100,
+          "quantity": 20
+        },
+        {
+          "articleId": 2,
+          "quantity": 300
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-03T11:05:00.000Z"
+    },
+    {
+      "id": 20,
+      "ref": "BON-ENT-7395",
+      "type": "ENTREE",
+      "date": "2025-10-04",
+      "articles": [
+        {
+          "articleId": 7,
+          "quantity": 6
+        },
+        {
+          "articleId": 17,
+          "quantity": 25
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-04T08:40:00.000Z"
+    },
+    {
+      "id": 21,
+      "ref": "BON-SOR-8506",
+      "type": "SORTIE",
+      "date": "2025-10-05",
+      "articles": [
+        {
+          "articleId": 42,
+          "quantity": 120
+        },
+        {
+          "articleId": 87,
+          "quantity": 45
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-10-05T16:20:00.000Z"
+    },
+    {
+      "id": 22,
+      "ref": "BON-ENT-9617",
+      "type": "ENTREE",
+      "date": "2025-10-06",
+      "articles": [
+        {
+          "articleId": 52,
+          "quantity": 12
+        },
+        {
+          "articleId": 62,
+          "quantity": 150
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-06T10:30:00.000Z"
+    },
+    {
+      "id": 23,
+      "ref": "BON-ENT-1728",
+      "type": "ENTREE",
+      "date": "2025-10-07",
+      "articles": [
+        {
+          "articleId": 72,
+          "quantity": 25
+        },
+        {
+          "articleId": 82,
+          "quantity": 180
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-07T09:15:00.000Z"
+    },
+    {
+      "id": 24,
+      "ref": "BON-SOR-2839",
+      "type": "SORTIE",
+      "date": "2025-10-08",
+      "articles": [
+        {
+          "articleId": 22,
+          "quantity": 85
+        },
+        {
+          "articleId": 77,
+          "quantity": 8
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-10-08T13:50:00.000Z"
+    },
+    {
+      "id": 25,
+      "ref": "BON-ENT-3940",
+      "type": "ENTREE",
+      "date": "2025-10-09",
+      "articles": [
+        {
+          "articleId": 92,
+          "quantity": 30
+        },
+        {
+          "articleId": 97,
+          "quantity": 20
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-09T11:25:00.000Z"
+    },
+    {
+      "id": 26,
+      "ref": "BON-ENT-5051",
+      "type": "ENTREE",
+      "date": "2025-10-10",
+      "articles": [
+        {
+          "articleId": 8,
+          "quantity": 25
+        },
+        {
+          "articleId": 18,
+          "quantity": 15
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-10T08:55:00.000Z"
+    },
+    {
+      "id": 27,
+      "ref": "BON-SOR-6162",
+      "type": "SORTIE",
+      "date": "2025-10-11",
+      "articles": [
+        {
+          "articleId": 33,
+          "quantity": 25
+        },
+        {
+          "articleId": 88,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-10-11T14:10:00.000Z"
+    },
+    {
+      "id": 28,
+      "ref": "BON-ENT-7273",
+      "type": "ENTREE",
+      "date": "2025-10-12",
+      "articles": [
+        {
+          "articleId": 43,
+          "quantity": 120
+        },
+        {
+          "articleId": 53,
+          "quantity": 10
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-12T10:45:00.000Z"
+    },
+    {
+      "id": 29,
+      "ref": "BON-SOR-8384",
+      "type": "SORTIE",
+      "date": "2025-10-13",
+      "articles": [
+        {
+          "articleId": 63,
+          "quantity": 120
+        },
+        {
+          "articleId": 98,
+          "quantity": 1
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-13T15:35:00.000Z"
+    },
+    {
+      "id": 30,
+      "ref": "BON-ENT-9495",
+      "type": "ENTREE",
+      "date": "2025-10-14",
+      "articles": [
+        {
+          "articleId": 73,
+          "quantity": 35
+        },
+        {
+          "articleId": 83,
+          "quantity": 10
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-10-14T09:20:00.000Z"
+    },
+    {
+      "id": 31,
+      "ref": "BON-ENT-1586",
+      "type": "ENTREE",
+      "date": "2025-10-15",
+      "articles": [
+        {
+          "articleId": 28,
+          "quantity": 50
+        },
+        {
+          "articleId": 38,
+          "quantity": 12
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-15T11:05:00.000Z"
+    },
+    {
+      "id": 32,
+      "ref": "BON-SOR-2697",
+      "type": "SORTIE",
+      "date": "2025-10-16",
+      "articles": [
+        {
+          "articleId": 48,
+          "quantity": 85
+        },
+        {
+          "articleId": 58,
+          "quantity": 15
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-10-16T13:40:00.000Z"
+    },
+    {
+      "id": 33,
+      "ref": "BON-ENT-3708",
+      "type": "ENTREE",
+      "date": "2025-10-17",
+      "articles": [
+        {
+          "articleId": 93,
+          "quantity": 40
+        },
+        {
+          "articleId": 99,
+          "quantity": 25
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-17T08:50:00.000Z"
+    },
+    {
+      "id": 34,
+      "ref": "BON-ENT-4819",
+      "type": "ENTREE",
+      "date": "2025-10-18",
+      "articles": [
+        {
+          "articleId": 11,
+          "quantity": 65
+        },
+        {
+          "articleId": 21,
+          "quantity": 280
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-18T10:30:00.000Z"
+    },
+    {
+      "id": 35,
+      "ref": "BON-SOR-5920",
+      "type": "SORTIE",
+      "date": "2025-10-19",
+      "articles": [
+        {
+          "articleId": 68,
+          "quantity": 45
+        },
+        {
+          "articleId": 78,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-10-19T14:55:00.000Z"
+    },
+    {
+      "id": 36,
+      "ref": "BON-ENT-7031",
+      "type": "ENTREE",
+      "date": "2025-10-20",
+      "articles": [
+        {
+          "articleId": 23,
+          "quantity": 18
+        },
+        {
+          "articleId": 96,
+          "quantity": 10
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-20T09:40:00.000Z"
+    },
+    {
+      "id": 37,
+      "ref": "BON-ENT-8142",
+      "type": "ENTREE",
+      "date": "2025-10-21",
+      "articles": [
+        {
+          "articleId": 34,
+          "quantity": 20
+        },
+        {
+          "articleId": 44,
+          "quantity": 15
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-21T11:15:00.000Z"
+    },
+    {
+      "id": 38,
+      "ref": "BON-SOR-9253",
+      "type": "SORTIE",
+      "date": "2025-10-22",
+      "articles": [
+        {
+          "articleId": 79,
+          "quantity": 2
+        },
+        {
+          "articleId": 89,
+          "quantity": 60
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-22T16:05:00.000Z"
+    },
+    {
+      "id": 39,
+      "ref": "BON-ENT-1344",
+      "type": "ENTREE",
+      "date": "2025-10-23",
+      "articles": [
+        {
+          "articleId": 54,
+          "quantity": 25
+        },
+        {
+          "articleId": 64,
+          "quantity": 8
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-23T08:35:00.000Z"
+    },
+    {
+      "id": 40,
+      "ref": "BON-ENT-2455",
+      "type": "ENTREE",
+      "date": "2025-10-24",
+      "articles": [
+        {
+          "articleId": 74,
+          "quantity": 18
+        },
+        {
+          "articleId": 84,
+          "quantity": 40
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-10-24T10:20:00.000Z"
+    },
+    {
+      "id": 41,
+      "ref": "BON-SOR-3566",
+      "type": "SORTIE",
+      "date": "2025-10-25",
+      "articles": [
+        {
+          "articleId": 90,
+          "quantity": 45
+        },
+        {
+          "articleId": 100,
+          "quantity": 10
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-10-25T13:30:00.000Z"
+    },
+    {
+      "id": 42,
+      "ref": "BON-ENT-4677",
+      "type": "ENTREE",
+      "date": "2025-10-26",
+      "articles": [
+        {
+          "articleId": 12,
+          "quantity": 120
+        },
+        {
+          "articleId": 94,
+          "quantity": 15
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-26T09:25:00.000Z"
+    },
+    {
+      "id": 43,
+      "ref": "BON-ENT-5788",
+      "type": "ENTREE",
+      "date": "2025-10-27",
+      "articles": [
+        {
+          "articleId": 26,
+          "quantity": 35
+        },
+        {
+          "articleId": 36,
+          "quantity": 12
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-10-27T11:50:00.000Z"
+    },
+    {
+      "id": 44,
+      "ref": "BON-SOR-6899",
+      "type": "SORTIE",
+      "date": "2025-10-28",
+      "articles": [
+        {
+          "articleId": 47,
+          "quantity": 8
+        },
+        {
+          "articleId": 57,
+          "quantity": 1
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-28T14:45:00.000Z"
+    },
+    {
+      "id": 45,
+      "ref": "BON-ENT-7900",
+      "type": "ENTREE",
+      "date": "2025-10-29",
+      "articles": [
+        {
+          "articleId": 41,
+          "quantity": 150
+        },
+        {
+          "articleId": 91,
+          "quantity": 20
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-10-29T08:15:00.000Z"
+    },
+    {
+      "id": 46,
+      "ref": "BON-ENT-9011",
+      "type": "ENTREE",
+      "date": "2025-10-30",
+      "articles": [
+        {
+          "articleId": 51,
+          "quantity": 25
+        },
+        {
+          "articleId": 61,
+          "quantity": 450
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-10-30T10:40:00.000Z"
+    },
+    {
+      "id": 47,
+      "ref": "BON-SOR-0122",
+      "type": "SORTIE",
+      "date": "2025-10-31",
+      "articles": [
+        {
+          "articleId": 71,
+          "quantity": 3
+        },
+        {
+          "articleId": 81,
+          "quantity": 120
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-10-31T15:25:00.000Z"
+    },
+    {
+      "id": 48,
+      "ref": "BON-ENT-1233",
+      "type": "ENTREE",
+      "date": "2025-11-01",
+      "articles": [
+        {
+          "articleId": 86,
+          "quantity": 25
+        },
+        {
+          "articleId": 92,
+          "quantity": 15
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-11-01T09:05:00.000Z"
+    },
+    {
+      "id": 49,
+      "ref": "BON-ENT-2344",
+      "type": "ENTREE",
+      "date": "2025-11-02",
+      "articles": [
+        {
+          "articleId": 27,
+          "quantity": 18
+        },
+        {
+          "articleId": 37,
+          "quantity": 15
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-11-02T11:30:00.000Z"
+    },
+    {
+      "id": 50,
+      "ref": "BON-SOR-3455",
+      "type": "SORTIE",
+      "date": "2025-11-03",
+      "articles": [
+        {
+          "articleId": 46,
+          "quantity": 18
+        },
+        {
+          "articleId": 56,
+          "quantity": 12
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-11-03T14:20:00.000Z"
+    },
+    {
+      "id": 51,
+      "ref": "BON-ENT-4566",
+      "type": "ENTREE",
+      "date": "2025-11-04",
+      "articles": [
+        {
+          "articleId": 67,
+          "quantity": 65
+        },
+        {
+          "articleId": 76,
+          "quantity": 10
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-11-04T08:50:00.000Z"
+    },
+    {
+      "id": 52,
+      "ref": "BON-ENT-5677",
+      "type": "ENTREE",
+      "date": "2025-11-05",
+      "articles": [
+        {
+          "articleId": 32,
+          "quantity": 35
+        },
+        {
+          "articleId": 42,
+          "quantity": 120
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-11-05T10:25:00.000Z"
+    },
+    {
+      "id": 53,
+      "ref": "BON-SOR-6788",
+      "type": "SORTIE",
+      "date": "2025-11-06",
+      "articles": [
+        {
+          "articleId": 53,
+          "quantity": 6
+        },
+        {
+          "articleId": 63,
+          "quantity": 85
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-11-06T13:15:00.000Z"
+    },
+    {
+      "id": 54,
+      "ref": "BON-ENT-7899",
+      "type": "ENTREE",
+      "date": "2025-11-07",
+      "articles": [
+        {
+          "articleId": 49,
+          "quantity": 12
+        },
+        {
+          "articleId": 59,
+          "quantity": 8
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-11-07T09:35:00.000Z"
+    },
+    {
+      "id": 55,
+      "ref": "BON-ENT-8900",
+      "type": "ENTREE",
+      "date": "2025-11-08",
+      "articles": [
+        {
+          "articleId": 66,
+          "quantity": 50
+        },
+        {
+          "articleId": 69,
+          "quantity": 60
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-11-08T11:10:00.000Z"
+    },
+    {
+      "id": 56,
+      "ref": "BON-SOR-9011",
+      "type": "SORTIE",
+      "date": "2025-11-09",
+      "articles": [
+        {
+          "articleId": 24,
+          "quantity": 45
+        },
+        {
+          "articleId": 34,
+          "quantity": 8
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-11-09T15:40:00.000Z"
+    },
+    {
+      "id": 57,
+      "ref": "BON-ENT-0122",
+      "type": "ENTREE",
+      "date": "2025-11-10",
+      "articles": [
+        {
+          "articleId": 39,
+          "quantity": 85
+        },
+        {
+          "articleId": 49,
+          "quantity": 8
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-11-10T08:45:00.000Z"
+    },
+    {
+      "id": 58,
+      "ref": "BON-ENT-1233",
+      "type": "ENTREE",
+      "date": "2025-11-11",
+      "articles": [
+        {
+          "articleId": 14,
+          "quantity": 6
+        },
+        {
+          "articleId": 94,
+          "quantity": 10
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-11-11T10:20:00.000Z"
+    },
+    {
+      "id": 59,
+      "ref": "BON-SOR-2344",
+      "type": "SORTIE",
+      "date": "2025-11-12",
+      "articles": [
+        {
+          "articleId": 29,
+          "quantity": 120
+        },
+        {
+          "articleId": 39,
+          "quantity": 25
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Manager",
+      "createdAt": "2025-11-12T14:50:00.000Z"
+    },
+    {
+      "id": 60,
+      "ref": "BON-ENT-3455",
+      "type": "ENTREE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 4,
+          "quantity": 850
+        },
+        {
+          "articleId": 54,
+          "quantity": 18
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-19T09:15:00.000Z"
+    },
+    {
+      "id": 61,
+      "ref": "BON-ENT-4567",
+      "type": "ENTREE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 19,
+          "quantity": 3
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-19T10:45:00.000Z"
+    },
+    {
+      "id": 62,
+      "ref": "BON-SOR-5678",
+      "type": "SORTIE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 11,
+          "quantity": 25
+        },
+        {
+          "articleId": 21,
+          "quantity": 85
+        },
+        {
+          "articleId": 31,
+          "quantity": 15
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-19T14:30:00.000Z"
+    },
+    {
+      "id": 63,
+      "ref": "BON-ENT-6789",
+      "type": "ENTREE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 41,
+          "quantity": 120
+        },
+        {
+          "articleId": 51,
+          "quantity": 30
+        },
+        {
+          "articleId": 61,
+          "quantity": 85
+        },
+        {
+          "articleId": 71,
+          "quantity": 5
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-20T09:20:00.000Z"
+    },
+    {
+      "id": 64,
+      "ref": "BON-ENT-7890",
+      "type": "ENTREE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 2,
+          "quantity": 450
+        },
+        {
+          "articleId": 12,
+          "quantity": 85
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-20T11:05:00.000Z"
+    },
+    {
+      "id": 65,
+      "ref": "BON-SOR-8901",
+      "type": "SORTIE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 17,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-20T15:15:00.000Z"
+    },
+    {
+      "id": 66,
+      "ref": "BON-ENT-9012",
+      "type": "ENTREE",
+      "date": "2025-12-21",
+      "articles": [
+        {
+          "articleId": 27,
+          "quantity": 12
+        },
+        {
+          "articleId": 37,
+          "quantity": 25
+        },
+        {
+          "articleId": 47,
+          "quantity": 8
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-21T08:40:00.000Z"
+    },
+    {
+      "id": 67,
+      "ref": "BON-ENT-0123",
+      "type": "ENTREE",
+      "date": "2025-12-21",
+      "articles": [
+        {
+          "articleId": 57,
+          "quantity": 2
+        },
+        {
+          "articleId": 67,
+          "quantity": 35
+        },
+        {
+          "articleId": 77,
+          "quantity": 10
+        },
+        {
+          "articleId": 87,
+          "quantity": 45
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-21T10:20:00.000Z"
+    },
+    {
+      "id": 68,
+      "ref": "BON-SOR-1234",
+      "type": "SORTIE",
+      "date": "2025-12-21",
+      "articles": [
+        {
+          "articleId": 3,
+          "quantity": 180
+        },
+        {
+          "articleId": 13,
+          "quantity": 5
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-21T13:45:00.000Z"
+    },
+    {
+      "id": 69,
+      "ref": "BON-ENT-2345",
+      "type": "ENTREE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 23,
+          "quantity": 15
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-22T09:10:00.000Z"
+    },
+    {
+      "id": 70,
+      "ref": "BON-SOR-3456",
       "type": "SORTIE",
       "date": "2025-12-22",
       "articles": [
         {
-          "articleId": 3,
-          "quantity": 3
+          "articleId": 33,
+          "quantity": 18
+        },
+        {
+          "articleId": 43,
+          "quantity": 65
+        },
+        {
+          "articleId": 53,
+          "quantity": 8
         }
       ],
-      "createdAt": "2025-12-22T21:59:15.497Z"
+      "motif": "Transfert interne",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-22T14:25:00.000Z"
     },
     {
-      "id": 1766475113119,
-      "ref": "BON-SOR-0004",
+      "id": 71,
+      "ref": "BON-ENT-4567",
+      "type": "ENTREE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 63,
+          "quantity": 120
+        },
+        {
+          "articleId": 73,
+          "quantity": 25
+        },
+        {
+          "articleId": 83,
+          "quantity": 8
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-22T11:00:00.000Z"
+    },
+    {
+      "id": 72,
+      "ref": "BON-ENT-5678",
+      "type": "ENTREE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 93,
+          "quantity": 20
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-22T08:35:00.000Z"
+    },
+    {
+      "id": 73,
+      "ref": "BON-SOR-6789",
       "type": "SORTIE",
       "date": "2025-12-23",
       "articles": [
         {
           "articleId": 4,
-          "quantity": 23
+          "quantity": 280
+        },
+        {
+          "articleId": 14,
+          "quantity": 3
+        },
+        {
+          "articleId": 24,
+          "quantity": 25
+        },
+        {
+          "articleId": 34,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-23T15:50:00.000Z"
+    },
+    {
+      "id": 74,
+      "ref": "BON-ENT-7890",
+      "type": "ENTREE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 44,
+          "quantity": 18
+        },
+        {
+          "articleId": 54,
+          "quantity": 12
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-23T10:15:00.000Z"
+    },
+    {
+      "id": 75,
+      "ref": "BON-ENT-8901",
+      "type": "ENTREE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 64,
+          "quantity": 6
+        },
+        {
+          "articleId": 74,
+          "quantity": 10
+        },
+        {
+          "articleId": 84,
+          "quantity": 25
+        },
+        {
+          "articleId": 94,
+          "quantity": 8
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-23T09:45:00.000Z"
+    },
+    {
+      "id": 76,
+      "ref": "BON-SOR-9012",
+      "type": "SORTIE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 5,
+          "quantity": 120
+        },
+        {
+          "articleId": 15,
+          "quantity": 4
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-23T13:20:00.000Z"
+    },
+    {
+      "id": 77,
+      "ref": "BON-ENT-0124",
+      "type": "ENTREE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 25,
+          "quantity": 15
+        },
+        {
+          "articleId": 35,
+          "quantity": 8
+        },
+        {
+          "articleId": 45,
+          "quantity": 65
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-19T08:50:00.000Z"
+    },
+    {
+      "id": 78,
+      "ref": "BON-ENT-1235",
+      "type": "ENTREE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 55,
+          "quantity": 12
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-20T11:30:00.000Z"
+    },
+    {
+      "id": 79,
+      "ref": "BON-SOR-2346",
+      "type": "SORTIE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 65,
+          "quantity": 18
+        },
+        {
+          "articleId": 75,
+          "quantity": 8
+        },
+        {
+          "articleId": 85,
+          "quantity": 3
+        },
+        {
+          "articleId": 95,
+          "quantity": 4
         }
       ],
       "motif": "Transfert interne",
       "utilisateur": "Ouvrier",
-      "createdAt": "2025-12-23T07:31:53.119Z"
+      "createdAt": "2025-12-20T14:40:00.000Z"
+    },
+    {
+      "id": 80,
+      "ref": "BON-ENT-3457",
+      "type": "ENTREE",
+      "date": "2025-12-21",
+      "articles": [
+        {
+          "articleId": 6,
+          "quantity": 8
+        },
+        {
+          "articleId": 16,
+          "quantity": 25
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-21T09:15:00.000Z"
+    },
+    {
+      "id": 81,
+      "ref": "BON-ENT-4568",
+      "type": "ENTREE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 26,
+          "quantity": 45
+        },
+        {
+          "articleId": 36,
+          "quantity": 15
+        },
+        {
+          "articleId": 46,
+          "quantity": 12
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-22T10:55:00.000Z"
+    },
+    {
+      "id": 82,
+      "ref": "BON-SOR-5679",
+      "type": "SORTIE",
+      "date": "2025-12-22",
+      "articles": [
+        {
+          "articleId": 56,
+          "quantity": 8
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-22T13:10:00.000Z"
+    },
+    {
+      "id": 83,
+      "ref": "BON-ENT-6780",
+      "type": "ENTREE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 66,
+          "quantity": 35
+        },
+        {
+          "articleId": 76,
+          "quantity": 10
+        },
+        {
+          "articleId": 86,
+          "quantity": 15
+        },
+        {
+          "articleId": 96,
+          "quantity": 6
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-23T08:25:00.000Z"
+    },
+    {
+      "id": 84,
+      "ref": "BON-ENT-7891",
+      "type": "ENTREE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 7,
+          "quantity": 4
+        },
+        {
+          "articleId": 17,
+          "quantity": 12
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-19T11:40:00.000Z"
+    },
+    {
+      "id": 85,
+      "ref": "BON-SOR-8902",
+      "type": "SORTIE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 27,
+          "quantity": 6
+        },
+        {
+          "articleId": 37,
+          "quantity": 8
+        },
+        {
+          "articleId": 47,
+          "quantity": 4
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-20T15:05:00.000Z"
+    },
+    {
+      "id": 86,
+      "ref": "BON-ENT-9013",
+      "type": "ENTREE",
+      "date": "2025-12-16",
+      "articles": [
+        {
+          "articleId": 57,
+          "quantity": 1
+        },
+        {
+          "articleId": 67,
+          "quantity": 25
+        }
+      ],
+      "motif": "Ajustement stock",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-16T09:30:00.000Z"
+    },
+    {
+      "id": 87,
+      "ref": "BON-ENT-0125",
+      "type": "ENTREE",
+      "date": "2025-12-17",
+      "articles": [
+        {
+          "articleId": 77,
+          "quantity": 8
+        },
+        {
+          "articleId": 87,
+          "quantity": 35
+        },
+        {
+          "articleId": 97,
+          "quantity": 12
+        }
+      ],
+      "motif": "Réception fournisseur",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-17T10:10:00.000Z"
+    },
+    {
+      "id": 88,
+      "ref": "BON-SOR-1236",
+      "type": "SORTIE",
+      "date": "2025-12-18",
+      "articles": [
+        {
+          "articleId": 8,
+          "quantity": 12
+        },
+        {
+          "articleId": 18,
+          "quantity": 8
+        },
+        {
+          "articleId": 28,
+          "quantity": 25
+        },
+        {
+          "articleId": 38,
+          "quantity": 6
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-18T14:15:00.000Z"
+    },
+    {
+      "id": 89,
+      "ref": "BON-ENT-2347",
+      "type": "ENTREE",
+      "date": "2025-12-19",
+      "articles": [
+        {
+          "articleId": 48,
+          "quantity": 45
+        }
+      ],
+      "motif": "Retour client",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-19T08:45:00.000Z"
+    },
+    {
+      "id": 90,
+      "ref": "BON-ENT-3458",
+      "type": "ENTREE",
+      "date": "2025-12-20",
+      "articles": [
+        {
+          "articleId": 58,
+          "quantity": 25
+        },
+        {
+          "articleId": 68,
+          "quantity": 35
+        },
+        {
+          "articleId": 78,
+          "quantity": 8
+        },
+        {
+          "articleId": 88,
+          "quantity": 12
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Admin",
+      "createdAt": "2025-12-20T11:25:00.000Z"
+    },
+    {
+      "id": 1766534285390,
+      "ref": "BON-SOR-0033",
+      "type": "SORTIE",
+      "date": "2025-12-23",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 245
+        }
+      ],
+      "motif": "Inventaire",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-23T23:58:05.390Z"
+    },
+    {
+      "id": 1766534656265,
+      "ref": "BON-ENT-0059",
+      "type": "ENTREE",
+      "date": "2025-12-24",
+      "articles": [
+        {
+          "articleId": 4,
+          "quantity": 30
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Technicien",
+      "createdAt": "2025-12-24T00:04:16.265Z"
+    },
+    {
+      "id": 1766534770743,
+      "ref": "BON-ENT-0060",
+      "type": "ENTREE",
+      "date": "2025-12-24",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 200
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-24T00:06:10.743Z"
+    },
+    {
+      "id": 1766534874272,
+      "ref": "BON-SOR-0034",
+      "type": "SORTIE",
+      "date": "2025-12-24",
+      "articles": [
+        {
+          "articleId": 1,
+          "quantity": 80
+        }
+      ],
+      "motif": "Transfert interne",
+      "utilisateur": "Manager",
+      "createdAt": "2025-12-24T00:07:54.272Z"
+    },
+    {
+      "id": 1766534966080,
+      "ref": "BON-SOR-0610",
+      "type": "SORTIE",
+      "date": "2025-12-24",
+      "articles": [
+        {
+          "articleId": 2,
+          "quantity": 60
+        }
+      ],
+      "motif": "Consommation production",
+      "utilisateur": "Ouvrier",
+      "createdAt": "2025-12-24T00:09:26.080Z"
+    },
+    {
+      "id": 1766536573612,
+      "ref": "BON-SOR-3456",
+      "type": "SORTIE",
+      "date": "2025-12-24",
+      "articles": [
+        {
+          "articleId": 7,
+          "quantity": 10
+        },
+        {
+          "articleId": 15,
+          "quantity": 8
+        },
+        {
+          "articleId": 19,
+          "quantity": 4
+        }
+      ],
+      "motif": "Déchet/Perte",
+      "utilisateur": "Magasinier",
+      "createdAt": "2025-12-24T00:36:13.612Z"
     }
   ],
   "counters": {
-    "ENTREE": 2,
-    "SORTIE": 4
+    "ENTREE": 60,
+    "SORTIE": 35
   }
 }

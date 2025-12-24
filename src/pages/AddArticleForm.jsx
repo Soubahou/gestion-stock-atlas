@@ -20,7 +20,7 @@ const AddArticleForm = () => {
   const navigate = useNavigate();
 
   const initialValues = {
-    reference: `ART-${String(Math.floor(Math.random() * 1000)).padStart(3, '0')}`,
+    reference: `ART-${String(Math.floor(Math.random() * 1000)).padStart(4, '0')}`,
     nom: '',
     categorie: 'Quincaillerie',
     quantite: 0,
